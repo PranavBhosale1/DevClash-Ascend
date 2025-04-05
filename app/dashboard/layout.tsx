@@ -12,6 +12,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { LearningTimer } from "@/components/learning-timer"
 import { Webchat, WebchatProvider, Fab, getClient } from "@botpress/webchat";
 import { buildTheme } from "@botpress/webchat-generator";
+import { ProfileMenu } from "@/components/profile-menu"
 
 
 export default function DashboardLayout({
@@ -23,6 +24,8 @@ export default function DashboardLayout({
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
   const [isMobile, setIsMobile] = useState(false)
   const pathname = usePathname()
+  const [profileData, setProfileData] = useState<any>(null)
+  const [profileLoading, setProfileLoading] = useState(false)
 
   useEffect(() => {
     const checkMobile = () => {
@@ -40,9 +43,63 @@ export default function DashboardLayout({
     }
   }, [])
 
+  useEffect(() => {
+    const fetchProfileData = async () => {
+      if (!user) return;
+      
+      setProfileLoading(true);
+      try {
+        const response = await fetch(`/api/profile?userId=${user.id}`);
+        const data = await response.json();
+        
+        if (data.success && data.profile) {
+          setProfileData(data.profile);
+        } else if (response.status === 404) {
+          // No profile exists yet - we'll use auth data
+          console.log("No profile found in MongoDB");
+        }
+      } catch (error) {
+        console.error("Error fetching profile:", error);
+      } finally {
+        setProfileLoading(false);
+      }
+    };
+    
+    fetchProfileData();
+  }, [user]);
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen)
   }
+
+  const getUserName = () => {
+    if (profileData?.name) {
+      return profileData.name;
+    }
+    return user?.user_metadata?.full_name || user?.email?.split("@")[0] || "User";
+  };
+  
+  const getUserInitials = () => {
+    if (profileData?.name) {
+      return profileData.name
+        .split(" ")
+        .map((n: string) => n[0])
+        .join("")
+        .toUpperCase()
+        .substring(0, 2);
+    }
+    
+    if (user?.user_metadata?.full_name) {
+      return user.user_metadata.full_name
+        .split(" ")
+        .map((n: string) => n[0])
+        .join("")
+        .toUpperCase()
+        .substring(0, 2);
+    }
+    
+    return user?.email?.substring(0, 2).toUpperCase() || "U";
+  };
 
   const navItems = [
     {
@@ -146,15 +203,22 @@ export default function DashboardLayout({
               <>
                 <div className="flex items-center gap-3">
                   <Avatar className="h-8 w-8">
-                    <AvatarImage src={user?.user_metadata?.avatar_url || ""} />
+                    <AvatarImage 
+                      src={profileData?.profileImage || user?.user_metadata?.avatar_url || ""} 
+                    />
                     <AvatarFallback>
-                      {user?.email?.charAt(0).toUpperCase() || "U"}
+                      {getUserInitials()}
                     </AvatarFallback>
                   </Avatar>
                   <div>
                     <p className="text-sm font-medium">
-                      {user?.user_metadata?.full_name || user?.email?.split("@")[0]}
+                      {getUserName()}
                     </p>
+                    {profileData && (
+                      <p className="text-xs text-muted-foreground">
+                        {profileData.coins || 0} coins
+                      </p>
+                    )}
                   </div>
                 </div>
                 <Button
@@ -169,9 +233,11 @@ export default function DashboardLayout({
             ) : (
               <div className="flex w-full justify-between">
                 <Avatar className="h-8 w-8">
-                  <AvatarImage src={user?.user_metadata?.avatar_url || ""} />
+                  <AvatarImage 
+                    src={profileData?.profileImage || user?.user_metadata?.avatar_url || ""} 
+                  />
                   <AvatarFallback>
-                    {user?.email?.charAt(0).toUpperCase() || "U"}
+                    {getUserInitials()}
                   </AvatarFallback>
                 </Avatar>
                 <Button
@@ -212,8 +278,11 @@ export default function DashboardLayout({
               <LearningTimer />
             </div>
           </div>
+
           <div className="flex items-center gap-4">
-            <ThemeToggle />
+          <ThemeToggle />
+            <ProfileMenu user={user} />
+            
           </div>
         </header>
         <main className="flex-1 overflow-y-auto p-4 md:p-6">{children}</main>
