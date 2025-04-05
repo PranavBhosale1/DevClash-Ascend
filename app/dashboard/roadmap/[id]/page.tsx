@@ -18,7 +18,7 @@ import { jsPDF } from "jspdf";
 import Chat from '@/components/chat';
 import { AliveScope, KeepAlive } from 'react-activation';
 import { Edit, Save } from "lucide-react";
-
+import QuizModal from "@/components/QuizModal"
 // MongoDB Roadmap interface
 interface MongoRoadmap {
   _id: string;
@@ -86,7 +86,13 @@ export default function RoadmapViewPage() {
   const [previousUrl, setPreviousUrl] = useState<string>(activeVideoUrl || ''); // Fallback to empty string if null
   const [isEditable, setIsEditable] = useState(false);
   const [editableNotes, setEditableNotes] = useState(cleanTranscript(notes) || "");
+  const [showQuiz, setShowQuiz] = useState(false)
+  const [quizNotes, setQuizNote] = useState<QuizQuestion[]>([]);
 
+  interface QuizQuestion {
+    question: string;
+    options: string[];
+  }
 
   useEffect(() => {
     if (activeVideoUrl) {
@@ -421,6 +427,7 @@ export default function RoadmapViewPage() {
       // Step 2: Send the transcript to Gemini for note generation
       const notesResponse = await axios.post("/api/generateNotes", { transcript });
       console.log("Notes lalal Response:", notesResponse.data);
+      
 
       if (notesResponse.data.error) {
         setnotes("Error generating notes.");
@@ -434,7 +441,7 @@ export default function RoadmapViewPage() {
     } finally {
       setIsLoading(false);
     }
-};
+  };
 
   const generatePDF = () => {
     if (!editableNotes) {
@@ -660,11 +667,22 @@ export default function RoadmapViewPage() {
                         </div>
                         <Button
                           size="sm"
-                          onClick={ () => markVideoAsCompleted(activeVideoUrl) }
+                          onClick={ () => setShowQuiz(true) }
                           disabled={ isVideoCompleted(activeVideoUrl) }
                         >
                           Mark as Completed
                         </Button>
+
+                        <QuizModal
+                          open={ showQuiz }
+                          onClose={ () => setShowQuiz(false) }
+                          onSubmit={ () => {
+                            markVideoAsCompleted(activeVideoUrl);
+                          } }
+                          videoUrl={ activeVideoUrl } // Pass the quiz data based on the active video URL
+                        />
+
+
                       </div>
                     ) }
 

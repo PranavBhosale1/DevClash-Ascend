@@ -1,1 +1,7 @@
-sh: python: command not found
+Traceback (most recent call last):
+  File "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\app.py", line 11, in <module>
+    client = load_inference_client()
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\chatbot.py", line 22, in load_inference_client
+    raise ValueError("Hugging Face API key not found in environment variables.")
+ValueError: Hugging Face API key not found in environment variables.
