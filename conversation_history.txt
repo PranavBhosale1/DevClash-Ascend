@@ -1,0 +1,16 @@
+User: The transcript of the video is: [object Object]. Please acknowledge.
+Bot: It seems there might be an issue with the transcript you provided—it appears as `[object Object]`, which typically indicates a JavaScript object that wasn’t properly converted to a readable string.  
+
+Could you:  
+1. Check the transcript again to ensure it’s in text format?  
+2. Share the actual content or clarify what you’d like help with?  
+
+I’m happy to assist once the details are clear!
+User: The transcript of the video is: [object Object]. Please acknowledge.
+Bot: It seems there might be an issue with the transcript you provided—it appears as `[object Object]`, which typically indicates a JavaScript object that wasn’t properly converted to a readable format.  
+
+Could you:  
+1. Check the transcript again to ensure it’s copied correctly, or  
+2. Provide more details about the video or the context you’d like help with?  
+
+I’m happy to assist once I have the correct information!
