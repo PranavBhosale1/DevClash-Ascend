@@ -8,893 +8,1262 @@
      · parallelServerBuildTraces
 
  [32m[1m✓[22m[39m Starting...
- [32m[1m✓[22m[39m Ready in 4s
- [32m[1m✓[22m[39m Compiled /middleware in 384ms
- [32m[1m✓[22m[39m Compiled (238 modules)
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Ready in 2.5s
+ [32m[1m✓[22m[39m Compiled /middleware in 285ms (238 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard/create, Session: true, Public: false
 Path: /api/profile, Session: true, Public: true
-Path: /, Session: true, Public: true
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/roadmaps/update-time, Session: true, Public: true
- [37m[1m○[22m[39m Compiling / ...
- [32m[1m✓[22m[39m Compiled / in 17.9s (1724 modules)
+Path: /api/process-syllabus, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/process-syllabus ...
+ [32m[1m✓[22m[39m Compiled /api/process-syllabus in 4.5s (1957 modules)
 Creating new MongoDB connection to: mongodb+srv://gauravkaushalye:84GP2fsw6SNbwnV7@cluster0.w23me.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-Fetching roadmaps from MongoDB...
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 20316ms
- POST /api/roadmaps/update-time [32m200[39m in 20312ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 20315ms
- POST /api/roadmaps/update-time [32m200[39m in 20314ms
- GET / [32m200[39m in 20964ms
- [32m[1m✓[22m[39m Compiled in 3.5s (829 modules)
- [32m[1m✓[22m[39m Compiled in 765ms (829 modules)
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899227765[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\23204e2d-3646-4802-957c-af309d4cfaa8.pdf
+ POST /api/process-syllabus [32m200[39m in 4767ms
+ GET /dashboard/create [32m200[39m in 5294ms
+ [32m[1m✓[22m[39m Compiled in 851ms (929 modules)
 MongoDB connected successfully
 MongoDB connected successfully
-MongoDB connected successfully
-MongoDB connected successfully
-Connected to MongoDB
-❌ Error saving time: [Error: aborted] { code: [32m'ECONNRESET'[39m }
-❌ Error saving time: [Error: aborted] { code: [32m'ECONNRESET'[39m }
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
-Path: /, Session: true, Public: true
- GET / [32m200[39m in 114ms
-Path: /, Session: true, Public: true
- GET / [32m200[39m in 43ms
-Path: /register, Session: true, Public: false
- [37m[1m○[22m[39m Compiling /register ...
- [32m[1m✓[22m[39m Compiled /register in 2.5s (1721 modules)
- GET /register [32m200[39m in 2863ms
-Path: /dashboard, Session: true, Public: false
- [37m[1m○[22m[39m Compiling /dashboard ...
-Path: /auth/callback, Session: true, Public: true
- [32m[1m✓[22m[39m Compiled /auth/callback in 21.4s (2128 modules)
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token-code-verifier', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-    at Array.forEach (<anonymous>)
-Auth callback: Code exchanged for session successfully
- GET /auth/callback?code=c4b80dda-7409-48d1-9ba3-400e4d99abf4 [34m307[39m in 13306ms
- │ [37mPOST https://wqewzenlruhorfotbreb.supabase.co/auth/v1/token?grant_type=pkce 200 in 628ms [33m(cache skip)[37m[39m
- │ │ [90mCache skipped reason: ([37mrevalidate: 0[90m)[39m
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 353ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
- GET /dashboard [32m200[39m in 193ms
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 130ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
- GET /dashboard [32m200[39m in 49ms
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 97ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 344ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 140ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 165ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1676ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1422ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 969ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 963ms
-Path: /dashboard/weeklyprogress, Session: true, Public: false
- [37m[1m○[22m[39m Compiling /dashboard/weeklyprogress ...
- [32m[1m✓[22m[39m Compiled /dashboard/weeklyprogress in 7.8s (3212 modules)
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /dashboard, Session: true, Public: false
- GET /dashboard/weeklyprogress [32m200[39m in 8201ms
-Using existing MongoDB connection
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
   userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m5844[39m
+  time: [33m7659[39m
 }
- POST /api/roadmaps/update-time [32m200[39m in 958ms
- GET /dashboard [32m200[39m in 1141ms
-Path: /dashboard, Session: true, Public: false
+ POST /api/roadmaps/update-time [32m200[39m in 6091ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 6455ms
+Path: /api/process-syllabus, Session: true, Public: true
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899239708[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\68c27c10-4c13-4106-838b-6f0224310a24.pdf
+ POST /api/process-syllabus [32m200[39m in 18ms
+Path: /api/process-syllabus, Session: true, Public: true
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899240543[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\f8d736e1-a34a-40a1-8bb3-a110ec0cb871.pdf
+ POST /api/process-syllabus [32m200[39m in 22ms
+Path: /api/process-syllabus, Session: true, Public: true
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899240877[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\b3cc2b69-bef8-4ebb-a00f-3ef7c905be96.pdf
+ POST /api/process-syllabus [32m200[39m in 12ms
+Path: /api/process-syllabus, Session: true, Public: true
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899241380[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\240b73e4-f567-4638-bc12-1070c1d12381.pdf
+ POST /api/process-syllabus [32m200[39m in 12ms
+Path: /api/process-syllabus, Session: true, Public: true
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899241797[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\4e7069cd-1f24-4ee4-a27b-3444c6259b20.pdf
+ POST /api/process-syllabus [32m200[39m in 13ms
 Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Using existing MongoDB connection
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 522ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 642ms
- GET /dashboard [32m200[39m in 702ms
 Path: /api/roadmaps/update-time, Session: true, Public: true
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1233ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/profile, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
 Using existing MongoDB connection
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 629ms
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
- GET /dashboard [32m200[39m in 334ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 419ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 196ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1187ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 2571ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 2096ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
 Using existing MongoDB connection
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
   userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m5855[39m
+  time: [33m7680[39m
 }
- POST /api/roadmaps/update-time [32m200[39m in 96ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /dashboard, Session: true, Public: false
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Using existing MongoDB connection
- GET /dashboard [32m200[39m in 103ms
+ POST /api/roadmaps/update-time [32m200[39m in 64ms
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
   userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m5855[39m
+  time: [33m7680[39m
 }
- POST /api/roadmaps/update-time [32m200[39m in 182ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 453ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 754ms
+ POST /api/roadmaps/update-time [32m200[39m in 67ms
 Path: /api/roadmaps/update-time, Session: true, Public: true
 Using existing MongoDB connection
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
   userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m5871[39m
+  time: [33m7681[39m
 }
- POST /api/roadmaps/update-time [32m200[39m in 113ms
+ POST /api/roadmaps/update-time [32m200[39m in 336ms
+ [32m[1m✓[22m[39m Compiled in 389ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 202ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 243ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 267ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 231ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 283ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 408ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 202ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (929 modules)
 Path: /api/roadmaps/update-time, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled in 198ms (929 modules)
 Using existing MongoDB connection
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
   userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m5871[39m
+  time: [33m7681[39m
 }
- POST /api/roadmaps/update-time [32m200[39m in 131ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5871[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 112ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/user, Session: true, Public: true
+ POST /api/roadmaps/update-time [32m200[39m in 237ms
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
 Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
- GET /dashboard [32m200[39m in 97ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 246ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1276ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5877[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 108ms
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 111ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Using existing MongoDB connection
- GET /dashboard [32m200[39m in 126ms
-Using existing MongoDB connection
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 45ms
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 142ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
- GET /dashboard [32m200[39m in 60ms
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 118ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 375ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 179ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 172ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 122ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1432ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1019ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
-Using existing MongoDB connection
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5880[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 93ms
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5880[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 96ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1007ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1067ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1003ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5877[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 77ms
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- [37m[1m○[22m[39m Compiling /signin ...
-Path: /api/roadmaps/update-time, Session: false, Public: true
-Path: /api/roadmaps/update-time, Session: false, Public: true
- [32m[1m✓[22m[39m Compiled /signin in 5.4s (2511 modules)
-Using existing MongoDB connection
-Using existing MongoDB connection
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5889[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 5387ms
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f0fc5e398a17c1c071d17c'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
-  __v: [33m0[39m,
-  time: [33m5889[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 3431ms
- GET /signin [32m200[39m in 6304ms
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 6210ms
-Path: /signin, Session: false, Public: true
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- GET /signin [32m200[39m in 131ms
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 129ms
-Path: /auth/callback, Session: false, Public: true
- [32m[1m✓[22m[39m Compiled /auth/callback in 419ms (1195 modules)
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token-code-verifier', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-    at Array.forEach (<anonymous>)
-Auth callback: Code exchanged for session successfully
- GET /auth/callback?code=aed3a99b-a5fe-4a83-998b-54a9d9d5fd09 [34m307[39m in 1162ms
- │ [37mPOST https://wqewzenlruhorfotbreb.supabase.co/auth/v1/token?grant_type=pkce 200 in 361ms [33m(cache skip)[37m[39m
- │ │ [90mCache skipped reason: ([37mrevalidate: 0[90m)[39m
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 474ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
- GET /dashboard [32m200[39m in 66ms
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Using existing MongoDB connection
-Using existing MongoDB connection
-Path: /dashboard, Session: true, Public: false
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
- GET /dashboard [32m200[39m in 52ms
- GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-05 [32m200[39m in 193ms
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 199ms
- GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 202ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
-Using existing MongoDB connection
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
- GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-05 [32m200[39m in 118ms
- GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 121ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 172ms
-Path: /api/roadmaps/user, Session: true, Public: true
- GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 62ms
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 167ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 212ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
-✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f18842398a17c1c071d1bf'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
-  __v: [33m0[39m,
-  time: [33m26[39m
-}
- POST /api/roadmaps/update-time [32m200[39m in 69ms
-Path: /auth/callback, Session: true, Public: true
-Auth callback: No code present in URL
- GET /auth/callback?error=server_error&error_code=flow_state_not_found&error_description=Flow+state+not+found [34m307[39m in 23ms
-Path: /signin, Session: true, Public: true
-User is signed in and trying to access login/signin page, redirecting to dashboard
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 83ms
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 40ms
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 35ms
-Path: /signin, Session: false, Public: true
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 30ms
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 27ms
-Path: /auth/callback, Session: false, Public: true
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token-code-verifier', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-    at Array.forEach (<anonymous>)
-Auth callback: Code exchanged for session successfully
- GET /auth/callback?code=127ca385-57b7-44d5-8fc1-3d10833ddf44 [34m307[39m in 281ms
- │ [37mPOST https://wqewzenlruhorfotbreb.supabase.co/auth/v1/token?grant_type=pkce 200 in 189ms [33m(cache skip)[37m[39m
- │ │ [90mCache skipped reason: ([37mrevalidate: 0[90m)[39m
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 114ms
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 84ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
-Path: /dashboard, Session: true, Public: false
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Using existing MongoDB connection
-Using existing MongoDB connection
- GET /dashboard [32m200[39m in 80ms
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 221ms
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-05 [32m200[39m in 85ms
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 360ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 414ms
-Path: /api/profile, Session: true, Public: true
-Using existing MongoDB connection
- GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 137ms
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 1200ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 798ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 747ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 5 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
-Found progress data for 2 roadmaps
-Error fetching roadmaps: TypeError: Cannot read properties of undefined (reading 'toString')
-    at toString (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:92:56)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:89:46)
-    at Array.map (<anonymous>)
-    at map (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\user\route.ts:71:42)
-  90 |           return {
-  91 |             ...topic,
-> 92 |             completed: completedTopicsSet.has(topic._id.toString())
-     |                                                        ^
-  93 |           };
-  94 |         });
-  95 |       }
- GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 784ms
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
-Path: /signin, Session: false, Public: true
- GET /signin [32m200[39m in 154ms
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 85ms
-Path: /dashboard, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 26ms
-Path: /, Session: false, Public: true
- GET / [32m200[39m in 245ms
-Path: /, Session: false, Public: true
- GET / [32m200[39m in 30ms
-Path: /register, Session: false, Public: false
-Path: /signin, Session: false, Public: true
- GET /signin?redirectedFrom=%2Fregister [32m200[39m in 42ms
-Path: /auth/callback, Session: false, Public: true
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token-code-verifier', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
-Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-    at Array.forEach (<anonymous>)
-Auth callback: Code exchanged for session successfully
- GET /auth/callback?code=69bce9fa-4f38-4fa8-81ee-ea60121b8406 [34m307[39m in 492ms
- │ [37mPOST https://wqewzenlruhorfotbreb.supabase.co/auth/v1/token?grant_type=pkce 200 in 334ms [33m(cache skip)[37m[39m
- │ │ [90mCache skipped reason: ([37mrevalidate: 0[90m)[39m
-Path: /dashboard, Session: true, Public: false
- GET /dashboard [32m200[39m in 152ms
-Path: /dashboard, Session: true, Public: false
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Path: /api/profile, Session: true, Public: true
-Path: /api/roadmaps/user, Session: true, Public: true
- GET /dashboard [32m200[39m in 84ms
-Path: /dashboard, Session: true, Public: false
-Using existing MongoDB connection
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Using existing MongoDB connection
- GET /dashboard [32m200[39m in 60ms
- GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 178ms
- GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-05 [32m200[39m in 184ms
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
-Path: /api/profile, Session: true, Public: true
-Path: /api/roadmaps/update-time, Session: true, Public: true
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 230ms
-Using existing MongoDB connection
-Using existing MongoDB connection
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
- GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 74ms
-Path: /api/profile, Session: true, Public: true
- GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-05 [32m200[39m in 95ms
-Using existing MongoDB connection
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 125ms
- GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 89ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 289ms
-Path: /api/roadmaps/user, Session: true, Public: true
-Fetching roadmaps from MongoDB...
-Using existing MongoDB connection
-Connected to MongoDB
-Found 0 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
-Found progress data for 0 roadmaps
- GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 127ms
 Path: /dashboard/create, Session: true, Public: false
- [37m[1m○[22m[39m Compiling /dashboard/create ...
- [32m[1m✓[22m[39m Compiled /dashboard/create in 7.4s (2709 modules)
- GET /dashboard/create [32m200[39m in 7743ms
-Path: /dashboard/create, Session: true, Public: false
- GET /dashboard/create [32m200[39m in 149ms
-Path: /dashboard/create, Session: true, Public: false
- GET /dashboard/create [32m200[39m in 142ms
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 322ms (929 modules)
+ GET /dashboard/create [32m200[39m in 261ms
+ [32m[1m✓[22m[39m Compiled in 213ms (929 modules)
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 491ms
+ [32m[1m✓[22m[39m Compiled in 213ms (929 modules)
 Path: /api/roadmaps/update-time, Session: true, Public: true
 Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f18842398a17c1c071d1bf'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m39[39m
+  time: [33m7681[39m
 }
- POST /api/roadmaps/update-time [32m200[39m in 136ms
+ POST /api/roadmaps/update-time [32m200[39m in 340ms
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 516ms (929 modules)
 Path: /api/roadmaps/update-time, Session: true, Public: true
 Using existing MongoDB connection
 ✅ Updated time in MongoDB: {
-  _id: new ObjectId([32m'67f18842398a17c1c071d1bf'[39m),
-  date: [32m'2025-04-05'[39m,
-  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
   __v: [33m0[39m,
-  time: [33m39[39m
+  time: [33m7692[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 536ms
+ [32m[1m✓[22m[39m Compiled in 967ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 538ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7692[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 72ms
+ [32m[1m✓[22m[39m Compiled in 426ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7692[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 79ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7692[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 529ms (1931 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7692[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 153ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7692[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 75ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7692[39m
 }
  POST /api/roadmaps/update-time [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 230ms (929 modules)
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 84ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 409ms
+Path: /api/process-syllabus, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/process-syllabus in 124ms (1028 modules)
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899351402[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\cac70693-9009-4916-8f24-970468dab17d.pdf
+API: Script found at C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\pdf-syllabus.py
+API: Executing command: python "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\pdf-syllabus.py" "C:\Users\gaura\AppData\Local\Temp\syllabus-processing\cac70693-9009-4916-8f24-970468dab17d.pdf"
+API: Python script executed with stdout length: [33m5867[39m
+API: Python script stderr: No stderr output
+API: First 500 chars of stdout: Processing file: C:\Users\gaura\AppData\Local\Temp\syllabus-processing\cac70693-9009-4916-8f24-970468dab17d.pdf
+File extension: .pdf
+Extracting text from PDF...
+Total characters extracted: 18534
+First 200 characters: 1 MATHEMATICS (IX- X) 
+  (CODE NO. 041) 
+                                               Session 2024-2 5 
+The Syllabus in  the subject of Mathematics has  undergone changes from time  to time in accor
+Total chunks to summarize: 7
+
+Summarizing chunk 1/7...
+Chunk 1 summary 
+API: Failed to extract summary from output, full stdout: Processing file: C:\Users\gaura\AppData\Local\Temp\syllabus-processing\cac70693-9009-4916-8f24-970468dab17d.pdf
+File extension: .pdf
+Extracting text from PDF...
+Total characters extracted: 18534
+First 200 characters: 1 MATHEMATICS (IX- X) 
+  (CODE NO. 041) 
+                                               Session 2024-2 5 
+The Syllabus in  the subject of Mathematics has  undergone changes from time  to time in accor
+Total chunks to summarize: 7
+
+Summarizing chunk 1/7...
+Chunk 1 summary length: 806 chars
+
+Summarizing chunk 2/7...
+Chunk 2 summary length: 642 chars
+
+Summarizing chunk 3/7...
+Chunk 3 summary length: 625 chars
+
+Summarizing chunk 4/7...
+Chunk 4 summary length: 593 chars
+
+Summarizing chunk 5/7...
+Chunk 5 summary length: 822 chars
+
+Summarizing chunk 6/7...
+Chunk 6 summary length: 846 chars
+
+Summarizing chunk 7/7...
+Chunk 7 summary length: 548 chars
+
+Final summary generated: 4894 characters
+Final Summary:
+
+The revised Mathematics syllabus for IX-X is designed to meet the emerging needs of all categories of students, motivating teachers to relate the topics to real-life problems and other subject areas. Greater emphasis has been laid on applications of various concepts. The curriculum aims to enhance the capacity of students to employ Mathematics in solving day-to-day life problems and studying the subject as a separate discipline. It is expected that students will acquire the ability to solve problems using algebraic methods and apply the knowledge of simple trigonometry to solve problems of height and distances. Carrying out experiments with numbers and forms of geometry, framing hypotheses, and verifying these with further observations form an inherent part of Mathematics learning at this stage.
+
+The CBSE syllabus for Class 9 Mathematics aims to familiarise students with the fundamental concepts of mathematics and to develop an interest in the subject by showing them its practical and everyday applications. The syllabus covers a range of topics over three semesters. These include number systems, algebra, polynomial equations, coordinate geometry, geometry, and mensuration. The course also includes an introduction to trigonometry and statistics. The final semester covers geometry from a practical perspective, including areas such as mensuration of irregularly shaped land plots, practical geometry, and the concept of estimation.
+
+The document provides a detailed summary of the topics that will be covered in each period of the trigonometry class. The topics covered in each period are divided into seven units and cover topics such as lines and angles, triangles, quadrilaterals, and circles. The summary also provides a brief description of the motivations for each theorem or concept, along with the proof of some of the theorems. The course aims to provide a comprehensive understanding of trigonometry and its applications. The summary helps students to understand the topics that will be covered in each period and prepare for the tests accordingly.
+
+The CBSE question paper design for the Class IX and X mathematics exams for the 2024-25 school year, as well as the course structure for Class X, were both revealed in this document. The answer script for Class IX will consist of 80 marks divided into remembering, understanding, applying, analyzing, evaluating, and creating categories. For Class X, the course structure consists of six units, each with a different weight, that will be tested over the course of 80 marks. These units include Number Systems, Algebra, Coordinate Geometry, Geometry, Trigonometry, and Statistics & Probability.
+
+This document provides a detailed syllabus for a mathematics course for Class 11 students. It covers five units, each focusing on a different topic in mathematics. The first unit, Number Systems, reviews the concepts of real numbers, integers, and irrational numbers. The second unit, Algebra, covers algebraic expressions, equations, and inequalities, including concepts such as linear equations, quadratic equations, and logarithms. The third unit, Coordinate Geometry, focuses on plotting points, graphing linear equations, and calculating distances and sections. The fourth unit, Geometry, includes lessons on triangles, circles, and the properties of shapes in two-dimensional space. The final unit, Mensuration, covers the measurement of areas and volumes of various shapes, including circles, triangles, and solids.
+
+The CBSE exam for the 10th grade in India covers a wide range of mathematical topics, with a focus on understanding and applying concepts in various scenarios. The first paper, with a weight of 80 marks, consists of three categories of questions: remembering, understanding, and applying. These questions test students' ability to recall formulas and solve problems based on previously learned concepts. The internal assessment, with a weight of 20 marks, includes a pen-and-paper test and a portfolio, as well as a lab practical, all designed to evaluate students' understanding and application of mathematical concepts. The second paper, also with a weight of 80 marks, includes analysing, evaluating, and creating questions, which test students' ability to break down problems, make inferences and judgments, and propose alternative solutions.
+
+Mathematics lab manuals and exemplars are some of the resources that can be used for the internal assessment of mathematics for classes 9 and 10. These resources are published by NCERT and CBSE and cover topics such as geometry, algebra, and statistics. The internal assessment is worth 20 marks and is comprised of a pen-and-paper test and multiple assessments, a portfolio, and lab practicals, all of which combine to give students a comprehensive understanding of mathematics laboratory activities and their application to real-world situations.
+
+ POST /api/process-syllabus [31m500[39m in 40148ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7740[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 209ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7740[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 213ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7744[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 546ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 802ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7744[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 105ms
+ [32m[1m✓[22m[39m Compiled in 310ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 291ms (929 modules)
+ GET /dashboard/create [32m200[39m in 104ms
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 417ms
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 445ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7750[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 396ms
+ [32m[1m✓[22m[39m Compiled in 879ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7750[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 73ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 31ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 267ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 947ms (929 modules)
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 471ms
+ [32m[1m✓[22m[39m Compiled in 495ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 817ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 61ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 85ms
+ [32m[1m✓[22m[39m Compiled in 663ms (1931 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 130ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 481ms
+ [32m[1m✓[22m[39m Compiled in 635ms (1931 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 82ms
+ [32m[1m✓[22m[39m Compiled in 346ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 261ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 240ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 220ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 207ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 204ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 241ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 113ms
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 245ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 255ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 227ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 217ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 320ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 196ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 198ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 196ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 219ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 198ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 201ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 194ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 198ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 284ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7758[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 295ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 340ms
+ [32m[1m✓[22m[39m Compiled in 326ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+Path: /api/process-syllabus, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled /api/process-syllabus in 452ms (1957 modules)
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899585035[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\610f0557-6ee1-444f-b898-6c19ab9cf76f.pdf
+API: Script found at C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\pdf-syllabus.py
+API: Executing command: python "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\pdf-syllabus.py" "C:\Users\gaura\AppData\Local\Temp\syllabus-processing\610f0557-6ee1-444f-b898-6c19ab9cf76f.pdf"
+API: Starting Python script execution...
+ [32m[1m✓[22m[39m Compiled in 201ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 409ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7800[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 151ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7800[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 154ms
+API: Python script finished execution
+API: Python script executed with stdout length: [33m7155[39m
+API: Python script stderr: No stderr output
+API: First 500 chars of stdout: Processing file: C:\Users\gaura\AppData\Local\Temp\syllabus-processing\610f0557-6ee1-444f-b898-6c19ab9cf76f.pdf
+File size: 995.03 KB
+File extension: .pdf
+Extracting text from PDF...
+Extracted 3167 characters from page 1
+Extracted 1861 characters from page 2
+Extracted 1844 characters from page 3
+Extracted 2291 characters from page 4
+Extracted 1383 characters from page 5
+Extracted 1498 characters from page 6
+Extracted 1589 characters from page 7
+Extracted 1874 characters from page 8
+Ex
+API: Failed to extract summary from output
+ POST /api/process-syllabus [32m200[39m in 44619ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7815[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 868ms
+ [32m[1m✓[22m[39m Compiled in 991ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 509ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 1030ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7815[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 276ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 749ms (999 modules)
+ [32m[1m✓[22m[39m Compiled in 247ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7815[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 120ms
+ [32m[1m✓[22m[39m Compiled in 203ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /dashboard/create in 35ms (86 modules)
+ [32m[1m✓[22m[39m Compiled in 369ms (929 modules)
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 521ms
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1715ms
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 218ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 526ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7830[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 473ms
+ [32m[1m✓[22m[39m Compiled in 832ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 554ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 585ms (929 modules)
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 49ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 504ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 353ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (929 modules)
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7832[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 491ms
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7832[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 69ms
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 156ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 299ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (929 modules)
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 212ms (929 modules)
+ GET /dashboard/create [32m200[39m in 84ms
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (929 modules)
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 779ms
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 230ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled in 299ms (929 modules)
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7834[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 309ms
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 221ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 194ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 245ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 262ms (929 modules)
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 212ms
+ [32m[1m✓[22m[39m Compiled in 254ms (929 modules)
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7834[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 340ms
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 804ms
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7838[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 89ms
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7838[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 64ms
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7838[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 203ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7838[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 65ms
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 157ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (929 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7838[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 343ms
+ [32m[1m✓[22m[39m Compiled in 173ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 216ms (929 modules)
+ [32m[1m✓[22m[39m Compiled in 743ms (1931 modules)
+Path: /api/profile, Session: true, Public: true
+Path: /dashboard/create, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 75ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 430ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard/create, Session: true, Public: false
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7839[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 172ms
+ GET /dashboard/create [32m200[39m in 178ms
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 11ms
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 79ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 109ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1067ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 797ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1056ms
+Path: /api/process-syllabus, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/process-syllabus ...
+ [32m[1m✓[22m[39m Compiled /api/process-syllabus in 751ms (1028 modules)
+API: Process syllabus request received
+📁 File received: File {
+  size: [33m1018913[39m,
+  type: [32m'application/pdf'[39m,
+  name: [32m'Maths_Sec_2024-25.pdf'[39m,
+  lastModified: [33m1743899769299[39m
+}
+API: File received - Name: Maths_Sec_2024-25.pdf, Size: 1018913 bytes, Type: application/pdf
+API: Using temp directory at C:\Users\gaura\AppData\Local\Temp\syllabus-processing
+API: File saved to C:\Users\gaura\AppData\Local\Temp\syllabus-processing\1f5283a4-55a0-472c-981b-c9d069c608b6.pdf
+API: Script found at C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\pdf-syllabus.py
+API: Executing command: python "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\pdf-syllabus.py" "C:\Users\gaura\AppData\Local\Temp\syllabus-processing\1f5283a4-55a0-472c-981b-c9d069c608b6.pdf"
+API: Starting Python script execution...
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7860[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 116ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7860[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 146ms
+API: Python script finished execution
+API: Python script executed with stdout length: [33m6592[39m
+API: Python script stderr: No stderr output
+API: First 500 chars of stdout: Processing file: C:\Users\gaura\AppData\Local\Temp\syllabus-processing\1f5283a4-55a0-472c-981b-c9d069c608b6.pdf
+File size: 995.03 KB
+File extension: .pdf
+Extracting text from PDF...
+Extracted 3167 characters from page 1
+Extracted 1861 characters from page 2
+Extracted 1844 characters from page 3
+Extracted 2291 characters from page 4
+Extracted 1383 characters from page 5
+Extracted 1498 characters from page 6
+Extracted 1589 characters from page 7
+Extracted 1874 characters from page 8
+Ex
+API: Failed to extract summary from output
+ POST /api/process-syllabus [32m200[39m in 38331ms
+Path: /dashboard, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /dashboard ...
+ [32m[1m✓[22m[39m Compiled /dashboard in 2.1s (1980 modules)
+ GET /dashboard [32m200[39m in 2648ms
+ [32m[1m✓[22m[39m Compiled in 718ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 168ms
+ [32m[1m✓[22m[39m Compiled in 510ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 483ms
+ [32m[1m✓[22m[39m Compiled in 621ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 44ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 25ms
+Path: /api/roadmaps/user, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/roadmaps/user ...
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/user in 823ms (1996 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 657ms (946 modules)
+ GET /dashboard [32m200[39m in 226ms
+Path: /dashboard, Session: true, Public: false
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1934ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /dashboard [32m200[39m in 404ms
+ [32m[1m✓[22m[39m Compiled in 614ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 470ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1201ms
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 694ms
+ [32m[1m✓[22m[39m Compiled in 751ms (946 modules)
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7898[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 227ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 475ms
+ [32m[1m✓[22m[39m Compiled in 565ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 154ms
+ [32m[1m✓[22m[39m Compiled in 546ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 398ms
+ [32m[1m✓[22m[39m Compiled in 471ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 372ms
+ [32m[1m✓[22m[39m Compiled in 442ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 486ms
+ [32m[1m✓[22m[39m Compiled in 544ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 508ms
+ [32m[1m✓[22m[39m Compiled in 572ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 35ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7898[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 119ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7898[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 88ms

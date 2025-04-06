@@ -1,7 +1,8 @@
-Traceback (most recent call last):
-  File "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\app.py", line 11, in <module>
-    client = load_inference_client()
-             ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\gaura\Desktop\dyp\DevClash-Ascend\backend\chatbot.py", line 22, in load_inference_client
-    raise ValueError("Hugging Face API key not found in environment variables.")
-ValueError: Hugging Face API key not found in environment variables.
+2025-04-06 05:56:56,067 - syllabus-processor - INFO - Starting Flask server on http://localhost:5000
+ * Serving Flask app 'app'
+ * Debug mode: off
+2025-04-06 05:56:57,735 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-04-06 05:56:57,735 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
