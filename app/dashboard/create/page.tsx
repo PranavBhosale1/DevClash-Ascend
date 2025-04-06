@@ -4,8 +4,8 @@ import type React from "react"
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { motion } from "framer-motion"
-import { BookOpen, Clock, Sparkles, ArrowRight, Loader2 } from "lucide-react"
+import { motion, AnimatePresence } from "framer-motion"
+import { BookOpen, Clock, Sparkles, ArrowRight, Loader2, FileText, Brain, CheckCircle2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -55,9 +55,25 @@ export default function CreateLearningPathPage() {
   const [fileContent, setFileContent] = useState("");
   const [syllabusResponse, setSyllabusResponse] = useState<string>("");
   const [syllabusError, setSyllabusError] = useState<string>("");
-
-
-
+  const [loadingStep, setLoadingStep] = useState(0);
+  
+  // Start the loading steps animation
+  useEffect(() => {
+    if (isLoading) {
+      const timer1 = setTimeout(() => setLoadingStep(1), 2000);
+      const timer2 = setTimeout(() => setLoadingStep(2), 5000);
+      const timer3 = setTimeout(() => setLoadingStep(3), 8000);
+      
+      return () => {
+        clearTimeout(timer1);
+        clearTimeout(timer2);
+        clearTimeout(timer3);
+      };
+    } else {
+      // Reset loading step when loading is finished
+      setLoadingStep(0);
+    }
+  }, [isLoading]);
 
   const handleSampleClick = (hour: number) => {
     setSelectedHour(hour);
@@ -273,7 +289,8 @@ export default function CreateLearningPathPage() {
       return
     }
 
-
+    setIsLoading(true)
+    
     try {
       console.log("Creating learning path for:", skill)
 
@@ -321,9 +338,9 @@ export default function CreateLearningPathPage() {
           skill,
           customHour,
           creator,
-          supabaseUserId, // Pass Supabase user ID directly
+          supabaseUserId,
           roadmapId,
-          courseName // Pass the course name to the generateLearningPath function
+          courseName
         )
 
         console.log("Learning path generated successfully:", learningPath.title)
@@ -333,20 +350,19 @@ export default function CreateLearningPathPage() {
           description: "Your personalized learning journey is ready",
         })
 
-        // Redirect to the learning page with the new roadmap
-        router.push(`/dashboard/learning?roadmap=${roadmapId}`)
+        // Redirect to the main dashboard instead of the learning page
+        router.push('/dashboard')
       } catch (geminiError: any) {
         console.error("Error generating learning path with Gemini:", geminiError)
 
-        // We'll still redirect to the roadmap since it was created,
-        // but we'll show an error toast
+        // Show an error toast but still redirect to the dashboard
         toast({
           title: "Partial success",
-          description: "Your roadmap was created, but we had trouble generating detailed content. You can still view your roadmap.",
+          description: "Your roadmap was created, but we had trouble generating detailed content. You can access it from your dashboard.",
           variant: "warning",
         })
 
-        router.push(`/dashboard/learning?roadmap=${roadmapId}`)
+        router.push('/dashboard')
       }
     } catch (error: any) {
       console.error("Error in overall learning path creation process:", error)
@@ -484,19 +500,19 @@ export default function CreateLearningPathPage() {
 
               <div>
                 <Label>Upload a syllabus or PDF (optional)</Label>
-                <div className="mt-2 flex items-center gap-2">
+                <div className="mt-2 flex items-center gap-2 flex-wrap">
                   <Input 
                     type="file" 
                     accept=".pdf,.docx" 
                     id="syllabus"
-                    className="bg-gray-800/50 border border-gray-700 file:bg-purple-600 file:border-0 file:text-white file:rounded file:px-3 file:py-1 hover:file:bg-purple-700 cursor-pointer"
+                    className="bg-gray-800/50 border border-gray-700 file:bg-purple-600 file:border-0 file:text-white file:rounded file:px-3 file:py-1 hover:file:bg-purple-700 cursor-pointer flex-1 min-w-0"
                     onChange={ handleFileChange }
                     disabled={ fileUploading }
                   />
                   <Button 
                     variant="outline" 
                     size="sm"
-                    className="border-purple-500/30 hover:bg-purple-500/10"
+                    className="border-purple-500/30 hover:bg-purple-500/10 whitespace-nowrap"
                     type="button"
                     onClick={ handleFileUpload }
                     disabled={ fileUploading || !selectedFile }
@@ -566,27 +582,181 @@ export default function CreateLearningPathPage() {
                 )}
               </div>
             </CardContent>
-            <CardFooter className="flex justify-between">
+            <CardFooter className="flex justify-between flex-wrap gap-4">
               <Button variant="outline" onClick={ handleBack }>Back</Button>
               <form onSubmit={ handleSubmit }>
-                <Button
-                  type="submit"
-                  className="w-fit"
-                  size="lg"
-                  disabled={ isLoading || !skill.trim() || fileUploading }
-                >
-                  { isLoading || fileUploading ? (
-                    <>
-                      <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-                      { isLoading ? "Generating your learning path..." : "Processing file..." }
-                    </>
+                <AnimatePresence>
+                  {isLoading ? (
+                    <motion.div
+                      className="w-full p-4 rounded-lg border bg-card text-card-foreground shadow max-w-md overflow-hidden"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -20 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <div className="flex flex-col items-center py-6">
+                        <motion.div
+                          className="relative w-16 h-16 mb-4"
+                          animate={{
+                            rotate: 360,
+                          }}
+                          transition={{
+                            duration: 2,
+                            repeat: Infinity,
+                            ease: "linear",
+                          }}
+                        >
+                          <div className="absolute inset-0 rounded-full border-t-2 border-primary border-opacity-50"></div>
+                          <div className="absolute inset-0 rounded-full border-r-2 border-primary border-opacity-75"></div>
+                          <div className="absolute inset-0 rounded-full border-b-2 border-primary"></div>
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <Brain className="h-8 w-8 text-primary" />
+                          </div>
+                        </motion.div>
+
+                        <h3 className="text-lg font-medium mb-2">Creating your learning path</h3>
+                        <p className="text-sm text-center text-muted-foreground mb-6">
+                          We're crafting a personalized learning journey for you
+                        </p>
+
+                        <div className="w-full max-w-md space-y-4">
+                          <div className="space-y-2">
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center">
+                                <motion.div
+                                  className={`w-6 h-6 rounded-full mr-3 flex items-center justify-center ${loadingStep >= 1 ? "bg-primary" : "bg-primary/20"}`}
+                                  animate={loadingStep >= 1 ? { scale: [1, 1.2, 1] } : {}}
+                                  transition={{ duration: 0.5 }}
+                                >
+                                  {loadingStep >= 1 ? (
+                                    <CheckCircle2 className="h-4 w-4 text-white" />
+                                  ) : (
+                                    <div className="w-2 h-2 bg-primary rounded-full" />
+                                  )}
+                                </motion.div>
+                                <span className="text-sm font-medium">Creating roadmap structure</span>
+                              </div>
+                              {loadingStep < 1 && <Loader2 className="h-4 w-4 animate-spin text-primary" />}
+                            </div>
+                            {loadingStep >= 1 && (
+                              <motion.div
+                                className="h-1 bg-primary/10 rounded-full overflow-hidden ml-9"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 0.2 }}
+                              >
+                                <motion.div
+                                  className="h-full bg-primary"
+                                  initial={{ width: 0 }}
+                                  animate={{ width: "100%" }}
+                                  transition={{ duration: 0.5 }}
+                                />
+                              </motion.div>
+                            )}
+                          </div>
+
+                          <div className="space-y-2">
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center">
+                                <motion.div
+                                  className={`w-6 h-6 rounded-full mr-3 flex items-center justify-center ${loadingStep >= 2 ? "bg-primary" : "bg-primary/20"}`}
+                                  animate={loadingStep >= 2 ? { scale: [1, 1.2, 1] } : {}}
+                                  transition={{ duration: 0.5 }}
+                                >
+                                  {loadingStep >= 2 ? (
+                                    <CheckCircle2 className="h-4 w-4 text-white" />
+                                  ) : (
+                                    <div className="w-2 h-2 bg-primary rounded-full" />
+                                  )}
+                                </motion.div>
+                                <span className="text-sm font-medium">Generating learning resources</span>
+                              </div>
+                              {loadingStep === 1 && <Loader2 className="h-4 w-4 animate-spin text-primary" />}
+                            </div>
+                            {loadingStep >= 2 && (
+                              <motion.div
+                                className="h-1 bg-primary/10 rounded-full overflow-hidden ml-9"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 0.2 }}
+                              >
+                                <motion.div
+                                  className="h-full bg-primary"
+                                  initial={{ width: 0 }}
+                                  animate={{ width: "100%" }}
+                                  transition={{ duration: 0.5 }}
+                                />
+                              </motion.div>
+                            )}
+                          </div>
+
+                          <div className="space-y-2">
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center">
+                                <motion.div
+                                  className={`w-6 h-6 rounded-full mr-3 flex items-center justify-center ${loadingStep >= 3 ? "bg-primary" : "bg-primary/20"}`}
+                                  animate={loadingStep >= 3 ? { scale: [1, 1.2, 1] } : {}}
+                                  transition={{ duration: 0.5 }}
+                                >
+                                  {loadingStep >= 3 ? (
+                                    <CheckCircle2 className="h-4 w-4 text-white" />
+                                  ) : (
+                                    <div className="w-2 h-2 bg-primary rounded-full" />
+                                  )}
+                                </motion.div>
+                                <span className="text-sm font-medium">Finalizing your journey</span>
+                              </div>
+                              {loadingStep === 2 && <Loader2 className="h-4 w-4 animate-spin text-primary" />}
+                            </div>
+                            {loadingStep >= 3 && (
+                              <motion.div
+                                className="h-1 bg-primary/10 rounded-full overflow-hidden ml-9"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 0.2 }}
+                              >
+                                <motion.div
+                                  className="h-full bg-primary"
+                                  initial={{ width: 0 }}
+                                  animate={{ width: "100%" }}
+                                  transition={{ duration: 0.5 }}
+                                />
+                              </motion.div>
+                            )}
+                          </div>
+                        </div>
+
+                        <motion.p
+                          className="text-sm text-muted-foreground mt-6"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: 1, duration: 0.5 }}
+                        >
+                          This may take a minute. We're using AI to create quality content for you.
+                        </motion.p>
+                      </div>
+                    </motion.div>
                   ) : (
-                    <>
-                      Create Learning Path
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </>
-                  ) }
-                </Button>
+                    <Button
+                      type="submit"
+                      className="whitespace-nowrap"
+                      size="lg"
+                      disabled={isLoading || !skill.trim() || fileUploading}
+                    >
+                      {fileUploading ? (
+                        <>
+                          <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                          Processing file...
+                        </>
+                      ) : (
+                        <>
+                          Create Learning Path
+                          <ArrowRight className="ml-2 h-5 w-5" />
+                        </>
+                      )}
+                    </Button>
+                  )}
+                </AnimatePresence>
               </form>
             </CardFooter>
           </Card>
