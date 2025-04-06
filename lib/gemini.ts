@@ -98,7 +98,7 @@ export async function generateLearningPath(
   creator: string,
   userId?: string,
   roadmapId?: string,
- 
+  courseName?: string
 ): Promise<LearningPath> {
   console.log('=== STARTING LEARNING PATH GENERATION ===');
 
@@ -189,7 +189,7 @@ export async function generateLearningPath(
       if (userId && roadmapId) {
       console.log('Saving to MongoDB...');
       try {
-        await saveToMongoDB(results, roadmapId, userId);
+        await saveToMongoDB(results, roadmapId, userId, courseName, skill);
         console.log('Successfully saved to MongoDB');
       } catch (error) {
         console.error('Failed to save to MongoDB:', error);
@@ -197,7 +197,7 @@ export async function generateLearningPath(
     }
 
     const learningPath: LearningPath = {
-      title: `Learning Path for ${Array.isArray(skill) ? skill.join(', ') : skill}`,
+      title: courseName || `Learning Path for ${Array.isArray(skill) ? skill.join(', ') : skill}`,
       skill: Array.isArray(skill) ? skill : [skill],
       description: `A comprehensive learning path for ${Array.isArray(skill) ? skill.join(', ') : skill}`,
       time: customHours,
@@ -231,7 +231,7 @@ export async function generateLearningPath(
 }
 
 // Save to MongoDB instead of Supabase
-async function saveToMongoDB(processedData: TopicWithQueries[], roadmapId: string, userId: string) {
+async function saveToMongoDB(processedData: TopicWithQueries[], roadmapId: string, userId: string, courseName?: string, skill: string[] | string) {
   console.log('=== SAVING TO MONGODB ===');
   try {
     // Check if we should skip YouTube API calls due to quota limits or errors
@@ -334,8 +334,9 @@ async function saveToMongoDB(processedData: TopicWithQueries[], roadmapId: strin
       body: JSON.stringify({
         roadmapId,
         userId,
-        title: `Roadmap ${roadmapId}`,
+        title: courseName ? `Learn ${courseName}` : `Learn ${Array.isArray(skill) ? skill.join(', ') : skill}`,
         description: `Generated roadmap with ${processedData.length} topics`,
+        courseName: courseName,
         topics: topicsToSave
       }),
     });

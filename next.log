@@ -1267,3 +1267,3355 @@ Using existing MongoDB connection
   time: [33m7898[39m
 }
  POST /api/roadmaps/update-time [32m200[39m in 88ms
+ [32m[1m✓[22m[39m Compiled in 844ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 36ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7898[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 124ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /dashboard [32m200[39m in 73ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 518ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7899[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 104ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2679ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7899[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 92ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 92ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 361ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1614ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7914[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 715ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 35ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 78ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 481ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1694ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7920[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 71ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7920[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7980[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 113ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m7980[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 117ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8040[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 114ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8040[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 115ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8100[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 64ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8100[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 66ms
+ [32m[1m✓[22m[39m Compiled in 383ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 168ms
+ [32m[1m✓[22m[39m Compiled in 196ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 160ms
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 183ms
+ [32m[1m✓[22m[39m Compiled in 220ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 181ms
+ [32m[1m✓[22m[39m Compiled in 223ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 205ms (946 modules)
+ GET /dashboard [32m200[39m in 69ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 246ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 213ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 199ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 234ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 156ms
+ [32m[1m✓[22m[39m Compiled in 250ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 159ms
+ [32m[1m✓[22m[39m Compiled in 189ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+ [32m[1m✓[22m[39m Compiled in 234ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 118ms
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8160[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 131ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8160[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 203ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 209ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 157ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 226ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 156ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8220[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 89ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8220[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 92ms
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 235ms (946 modules)
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8223[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 266ms
+ [32m[1m✓[22m[39m Compiled in 280ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 211ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (946 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8223[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 67ms
+ [32m[1m✓[22m[39m Compiled in 260ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 1222ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 296ms (946 modules)
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:42)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:216:11)
+    at new Promise (<anonymous>)
+    at retryable (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:197:21)
+    at SupabaseAuthClient._refreshAccessToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1387:81)
+    at SupabaseAuthClient._callRefreshToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1498:48)
+    at SupabaseAuthClient.__loadSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:863:51)
+    at async SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:803:28)
+    at async SupabaseAuthClient._emitInitialSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1248:16) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:42)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:216:11)
+    at new Promise (<anonymous>)
+    at retryable (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:197:21)
+    at SupabaseAuthClient._refreshAccessToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1387:81)
+    at SupabaseAuthClient._callRefreshToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1498:48)
+    at SupabaseAuthClient.__loadSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:863:51)
+    at async SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:803:28)
+    at async SupabaseAuthClient._emitInitialSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1248:16) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:42)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:216:11)
+    at new Promise (<anonymous>)
+    at retryable (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:197:21)
+    at SupabaseAuthClient._refreshAccessToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1387:81)
+    at SupabaseAuthClient._callRefreshToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1498:48)
+    at SupabaseAuthClient.__loadSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:863:51)
+    at async SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:803:28)
+    at async SupabaseAuthClient._emitInitialSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1248:16) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:42)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:216:11)
+    at new Promise (<anonymous>)
+    at retryable (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:197:21)
+    at SupabaseAuthClient._refreshAccessToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1387:81)
+    at SupabaseAuthClient._callRefreshToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1498:48)
+    at SupabaseAuthClient.__loadSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:863:51)
+    at async SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:803:28)
+    at async SupabaseAuthClient._emitInitialSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1248:16) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:42)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:216:11)
+    at new Promise (<anonymous>)
+    at retryable (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:197:21)
+    at SupabaseAuthClient._refreshAccessToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1387:81)
+    at SupabaseAuthClient._callRefreshToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1498:48)
+    at SupabaseAuthClient.__loadSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:863:51)
+    at async SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:803:28)
+    at async SupabaseAuthClient._emitInitialSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1248:16) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:42)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:216:11)
+    at new Promise (<anonymous>)
+    at retryable (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:197:21)
+    at SupabaseAuthClient._refreshAccessToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1387:81)
+    at SupabaseAuthClient._callRefreshToken (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1498:48)
+    at SupabaseAuthClient.__loadSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:863:51)
+    at async SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:803:28)
+    at async SupabaseAuthClient._emitInitialSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1248:16) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+Error: fetch failed
+    at context.fetch (C:\Users\gaura\Desktop\dyp\DevClash-Ascend\node_modules\next\dist\server\web\sandbox\context.js:303:38)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:113:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:115:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:105:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:1392:82)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:203:36) {
+  
+}
+ [32m[1m✓[22m[39m Compiled in 231ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 245ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 201ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 205ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 207ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 203ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 212ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 215ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 157ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 159ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 156ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 156ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 156ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 210ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 204ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 155ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 157ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 156ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 280ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 235ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 243ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 218ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 218ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 217ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 194ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 224ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 198ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 206ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 219ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 265ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 243ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 291ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 325ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 205ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 295ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 225ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 200ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 212ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 217ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 206ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 196ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 201ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 209ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 458ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 527ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 204ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 200ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 226ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 199ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 201ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 214ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 196ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 201ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 201ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 165ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 196ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 313ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 259ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 202ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 204ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 218ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 194ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 198ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 180ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 232ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 194ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 190ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 189ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 170ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 185ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 192ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 179ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 195ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 187ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 197ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 191ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 186ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 199ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 188ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 231ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 175ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (946 modules)
+ [32m[1m✓[22m[39m Compiled in 663ms (1948 modules)
+ [32m[1m✓[22m[39m Compiled in 818ms (1948 modules)
+ [32m[1m✓[22m[39m Compiled in 623ms (1948 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/update-time in 266ms (1009 modules)
+ POST /api/roadmaps/update-time [32m200[39m in 954ms
+Using existing MongoDB connection
+❌ Error saving time: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at json (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\roadmaps\update-time\route.ts:36:45)
+  34 |   try {
+  35 |     await connectToDB();
+> 36 |     const { userId, date, time } = await req.json(); // ✅ Extract `date` from request
+     |                                             ^
+  37 |
+  38 |     if (!userId || time === undefined || !date) {
+  39 |       return new Response(JSON.stringify({ error: "Missing parameters" }), { status: 400 });
+ GET /dashboard [32m200[39m in 1268ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+ GET /dashboard [32m200[39m in 67ms
+Path: /dashboard, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /api/roadmaps/user ...
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/user in 546ms (1022 modules)
+ [32m[1m✓[22m[39m Compiled (1024 modules)
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 1383ms
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 1949ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 66ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2535ms
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2580ms
+Path: /api/profile, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 121ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 169ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 933ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /dashboard, Session: false, Public: false
+Path: /signin, Session: false, Public: true
+Path: /signin, Session: false, Public: true
+ [37m[1m○[22m[39m Compiling /signin ...
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1391ms
+Path: /api/roadmaps/user, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /signin in 2.3s (1977 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /signin [32m200[39m in 2524ms
+ GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 2303ms
+Path: /dashboard, Session: false, Public: false
+Path: /signin, Session: false, Public: true
+Path: /signin, Session: false, Public: true
+ GET /signin [32m200[39m in 42ms
+ GET /signin?redirectedFrom=%2Fdashboard [32m200[39m in 38ms
+Path: /signin, Session: false, Public: true
+Path: /signin, Session: false, Public: true
+ GET /signin [32m200[39m in 39ms
+ GET /signin [32m200[39m in 42ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1800ms
+Path: /auth/callback, Session: false, Public: true
+ [37m[1m○[22m[39m Compiling /auth/callback ...
+ [32m[1m✓[22m[39m Compiled /auth/callback in 1961ms (2151 modules)
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token-code-verifier', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at Array.forEach (<anonymous>)
+Auth callback: Code exchanged for session successfully
+ GET /auth/callback?code=b569f800-0ef5-4590-8bd5-85fc68f97320 [34m307[39m in 3052ms
+ │ [37mPOST https://wqewzenlruhorfotbreb.supabase.co/auth/v1/token?grant_type=pkce 200 in 367ms [33m(cache skip)[37m[39m
+ │ │ [90mCache skipped reason: ([37mrevalidate: 0[90m)[39m
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 351ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 116ms
+Path: /dashboard, Session: true, Public: false
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 136ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ GET /dashboard [32m200[39m in 76ms
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 159ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 512ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 151ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 241ms
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1315ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1277ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 47ms
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1191ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 6 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2104ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8260[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 447ms
+ [32m[1m✓[22m[39m Compiled in 746ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 52ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 34ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8260[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 76ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1328ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8261[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 52ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 22ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 609ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8262[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 101ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 18ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 470ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8262[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 108ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 26ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 350ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8262[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 39ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 19ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 350ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8262[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 128ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 423ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 18ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 51ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 57ms
+ [32m[1m✓[22m[39m Compiled in 223ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 202ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 29ms
+ [32m[1m✓[22m[39m Compiled in 237ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 240ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 267ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 25ms
+ [32m[1m✓[22m[39m Compiled in 188ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 16ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 77ms
+ [32m[1m✓[22m[39m Compiled in 188ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 203ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 17ms
+ [32m[1m✓[22m[39m Compiled in 187ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 264ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 1166ms (1970 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 74ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 110ms
+ [32m[1m✓[22m[39m Compiled in 659ms (1970 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 49ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 73ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 148ms
+ [32m[1m✓[22m[39m Compiled in 663ms (1957 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 73ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 76ms
+ [32m[1m✓[22m[39m Compiled in 356ms (1957 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 44ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 187ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8272[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 194ms
+ [32m[1m✓[22m[39m Compiled in 283ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 17ms
+ [32m[1m✓[22m[39m Compiled in 239ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 203ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 16ms
+Path: /dashboard/create, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/profile in 471ms (1970 modules)
+Using existing MongoDB connection
+ GET /dashboard/create [32m200[39m in 581ms
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 206ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 14ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1340ms
+ [32m[1m✓[22m[39m Compiled in 177ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 176ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 191ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 177ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 186ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 193ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 477ms (948 modules)
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 36ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8280[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 116ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8280[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 118ms
+Path: /api/roadmaps/save, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/roadmaps/save ...
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/save in 1170ms (1958 modules)
+API route called: /api/roadmaps/save
+Using existing MongoDB connection
+Connected to MongoDB successfully
+Received data: {
+  roadmapId: [32m'90857bc9-7deb-4ee0-8f10-9df9b90c6541'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  courseName: [32m'Data Science'[39m,
+  topicsCount: [33m90[39m
+}
+Saving roadmap to MongoDB...
+Roadmap saved successfully: new ObjectId([32m'67f1dcf1398a17c1c0878df7'[39m)
+ POST /api/roadmaps/save [32m200[39m in 1809ms
+Path: /dashboard/learning, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /dashboard/learning ...
+ [32m[1m✓[22m[39m Compiled /dashboard/learning in 1559ms (1984 modules)
+ GET /dashboard/learning?roadmap=90857bc9-7deb-4ee0-8f10-9df9b90c6541 [32m200[39m in 1710ms
+Path: /api/roadmaps/user, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/user in 417ms (1041 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 7 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1676ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 7 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 642ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 76ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 7 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 986ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 7 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 647ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 88ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 99ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 86ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 78ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 134ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 78ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 105ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 72ms
+ [32m[1m✓[22m[39m Compiled in 564ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 26ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 115ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 68ms
+ [32m[1m✓[22m[39m Compiled in 941ms (1983 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 66ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 71ms
+ [32m[1m✓[22m[39m Compiled in 202ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 195ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 17ms
+ [32m[1m✓[22m[39m Compiled in 209ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 197ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled in 325ms (1983 modules)
+Using existing MongoDB connection
+Path: /dashboard, Session: true, Public: false
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+ GET /dashboard [32m200[39m in 37ms
+ [32m[1m✓[22m[39m Compiled in 287ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 209ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+ [32m[1m✓[22m[39m Compiled in 261ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 200ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 480ms (1983 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 28ms
+ [32m[1m✓[22m[39m Compiled in 183ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 183ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 212ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 26ms
+ [32m[1m✓[22m[39m Compiled in 229ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 209ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 191ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 194ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 187ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 231ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 290ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+ [32m[1m✓[22m[39m Compiled in 207ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 214ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 98ms
+ GET /dashboard [32m200[39m in 177ms
+ [32m[1m✓[22m[39m Compiled in 212ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 193ms
+ [32m[1m✓[22m[39m Compiled in 224ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 184ms
+ [32m[1m✓[22m[39m Compiled in 221ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 228ms (959 modules)
+ GET /dashboard [32m200[39m in 93ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 193ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 408ms (1983 modules)
+ GET /dashboard [32m200[39m in 438ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 208ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 17ms
+ [32m[1m✓[22m[39m Compiled in 193ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 191ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 246ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 195ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 620ms (1983 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 28ms
+ [32m[1m✓[22m[39m Compiled in 195ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 188ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 207ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 199ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 206ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 37ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 226ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 219ms
+ GET /dashboard [32m200[39m in 182ms
+ [32m[1m✓[22m[39m Compiled in 215ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 202ms (959 modules)
+ GET /dashboard [32m200[39m in 182ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 211ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 204ms (959 modules)
+ GET /dashboard [32m200[39m in 84ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 200ms (959 modules)
+ GET /dashboard [32m200[39m in 80ms
+ [32m[1m✓[22m[39m Compiled in 190ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 193ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 172ms
+ [32m[1m✓[22m[39m Compiled in 256ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 211ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 152ms
+ [32m[1m✓[22m[39m Compiled in 208ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 197ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 141ms
+ [32m[1m✓[22m[39m Compiled in 199ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 144ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 211ms (959 modules)
+ GET /dashboard [32m200[39m in 148ms
+ [32m[1m✓[22m[39m Compiled in 201ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 199ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 152ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 218ms (959 modules)
+ GET /dashboard [32m200[39m in 150ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 204ms (959 modules)
+ GET /dashboard [32m200[39m in 160ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 198ms (959 modules)
+ GET /dashboard [32m200[39m in 74ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 189ms (959 modules)
+ GET /dashboard [32m200[39m in 79ms
+ [32m[1m✓[22m[39m Compiled in 187ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 137ms
+ [32m[1m✓[22m[39m Compiled in 194ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 156ms
+ [32m[1m✓[22m[39m Compiled in 216ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 152ms
+ [32m[1m✓[22m[39m Compiled in 223ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 147ms
+ [32m[1m✓[22m[39m Compiled in 204ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 141ms
+ [32m[1m✓[22m[39m Compiled in 232ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 166ms
+ [32m[1m✓[22m[39m Compiled in 258ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 234ms
+ [32m[1m✓[22m[39m Compiled in 303ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 196ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 149ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 219ms (959 modules)
+ GET /dashboard [32m200[39m in 166ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 239ms (959 modules)
+ GET /dashboard [32m200[39m in 292ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 331ms (959 modules)
+ GET /dashboard [32m200[39m in 164ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 211ms (959 modules)
+ GET /dashboard [32m200[39m in 84ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 215ms (959 modules)
+ GET /dashboard [32m200[39m in 93ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 202ms (959 modules)
+ GET /dashboard [32m200[39m in 82ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 205ms (959 modules)
+ GET /dashboard [32m200[39m in 185ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 197ms (959 modules)
+ GET /dashboard [32m200[39m in 84ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 218ms (959 modules)
+ GET /dashboard [32m200[39m in 97ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 199ms (959 modules)
+ GET /dashboard [32m200[39m in 76ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 203ms (959 modules)
+ GET /dashboard [32m200[39m in 87ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 204ms (959 modules)
+ GET /dashboard [32m200[39m in 192ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 225ms (959 modules)
+ GET /dashboard [32m200[39m in 89ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 337ms (959 modules)
+ GET /dashboard [32m200[39m in 172ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 204ms (959 modules)
+ GET /dashboard [32m200[39m in 76ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 194ms (959 modules)
+ GET /dashboard [32m200[39m in 73ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 194ms (959 modules)
+ GET /dashboard [32m200[39m in 157ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 205ms (959 modules)
+ GET /dashboard [32m200[39m in 152ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 204ms (959 modules)
+ GET /dashboard [32m200[39m in 81ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 196ms (959 modules)
+ GET /dashboard [32m200[39m in 73ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 199ms (959 modules)
+ GET /dashboard [32m200[39m in 80ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 190ms (959 modules)
+ GET /dashboard [32m200[39m in 80ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 200ms (959 modules)
+ GET /dashboard [32m200[39m in 79ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 188ms (959 modules)
+ GET /dashboard [32m200[39m in 83ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 206ms (959 modules)
+ GET /dashboard [32m200[39m in 74ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 211ms (959 modules)
+ GET /dashboard [32m200[39m in 77ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 197ms (959 modules)
+ GET /dashboard [32m200[39m in 73ms
+ [32m[1m✓[22m[39m Compiled in 210ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 19ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 219ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8339[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 63ms
+ [32m[1m✓[22m[39m Compiled in 190ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 199ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 197ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 278ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 345ms
+ [32m[1m✓[22m[39m Compiled in 320ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 220ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 212ms (959 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+ GET /dashboard [32m200[39m in 161ms
+ [37m[1m○[22m[39m Compiling /api/profile ...
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/profile in 1040ms (1998 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8340[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 127ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1264ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8340[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 716ms
+Found 7 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2007ms
+Path: /dashboard/create, Session: true, Public: false
+ GET /dashboard/create [32m200[39m in 93ms
+Path: /api/roadmaps/save, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/roadmaps/save ...
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/save in 717ms (1041 modules)
+API route called: /api/roadmaps/save
+Using existing MongoDB connection
+Connected to MongoDB successfully
+Received data: {
+  roadmapId: [32m'e8fbf800-5aa2-4d5c-947c-133648c8267d'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  courseName: [32m'Web Development'[39m,
+  topicsCount: [33m68[39m
+}
+Saving roadmap to MongoDB...
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8400[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 140ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8400[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 146ms
+Roadmap saved successfully: new ObjectId([32m'67f1de10398a17c1c0878dfa'[39m)
+ POST /api/roadmaps/save [32m200[39m in 1256ms
+Path: /dashboard/learning, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ GET /dashboard/learning?roadmap=e8fbf800-5aa2-4d5c-947c-133648c8267d [32m200[39m in 111ms
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8400[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 133ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 902ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Path: /dashboard/learning, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 667ms
+ GET /dashboard/learning?roadmap=e8fbf800-5aa2-4d5c-947c-133648c8267d [32m200[39m in 94ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 249ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 939ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 868ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8460[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 72ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8460[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 83ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8520[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 379ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8520[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 380ms
+Path: /dashboard/roadmap/e8fbf800-5aa2-4d5c-947c-133648c8267d, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /dashboard/roadmap/[id] ...
+ [32m[1m✓[22m[39m Compiled /dashboard/roadmap/[id] in 2s (2617 modules)
+ GET /dashboard/roadmap/e8fbf800-5aa2-4d5c-947c-133648c8267d [32m200[39m in 2790ms
+Path: /api/roadmaps/get, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/get in 330ms (2630 modules)
+Fetching roadmap from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found roadmap with ID e8fbf800-5aa2-4d5c-947c-133648c8267d
+Fetching progress for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+No user progress found, creating empty progress
+ GET /api/roadmaps/get?roadmapId=e8fbf800-5aa2-4d5c-947c-133648c8267d&supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1009ms
+Path: /api/roadmaps/get, Session: true, Public: true
+Fetching roadmap from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /api/transcript, Session: true, Public: true
+Found roadmap with ID e8fbf800-5aa2-4d5c-947c-133648c8267d
+Fetching progress for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+ [32m[1m✓[22m[39m Compiled /api/transcript in 407ms (2647 modules)
+✅ Request received
+📌 Video URL: https://www.youtube.com/watch?v=0IAPZzGSbME&q=What%20is%20HTML%3F
+📌 Video ID: 0IAPZzGSbME
+📂 Script Path: C:\Users\gaura\Desktop\dyp\DevClash-Ascend\scripts\get_transcript.py
+Path: /dashboard/roadmap/e8fbf800-5aa2-4d5c-947c-133648c8267d, Session: true, Public: false
+ GET /dashboard/roadmap/e8fbf800-5aa2-4d5c-947c-133648c8267d [32m200[39m in 45ms
+No user progress found, creating empty progress
+ GET /api/roadmaps/get?roadmapId=e8fbf800-5aa2-4d5c-947c-133648c8267d&supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 574ms
+📄 stdout: "hello friends I'm going to start a\ncourse on algorithms and whoever messes\nup cake algorithm is a common subject\nfor computer science engineering\nstudents most of the universities offer\nthis course as a part of syllabus and\nthis is a very cool subject and very\nimportant subject and students face some\ndifficulties in some of the topics in\nthis one they could not understand them\nvery clearly so here I am going to make\nthe subject more and more simple so that\nyou can easily understand and even you\ncan practice that and also remember it\neasily the importance of the subject is\nthat apart from theoretical examination\nit is also important for competitive\nexams and even programming contests most\nof them are designed from this subject\nonly if any programming challenge is\nthere they mostly people come to\nquestions from this subject so this one\nof the challenging subject for the\nstudent because they get a chance to\nsolve different types of problems and\nthey give the strategy or approach for\nsolving the problem so some students\nfail to understand it properly so they\ncould not get the approach for the\nstrategy for solving the problems and\nthey feel that they are lacking in the\nlogic development or strategy\ndevelopment of a program so I'll be\ncovering in depth each and everything\nright from the basics to the dead okay\nso that you will be able to answer any\ntype of question from this forum I will\ncover the topics such that just you look\nat the question you can get asked that I\nguarantee you right so the thing is I\nwill cover those points which are useful\nfor solving the motions some job\ninterviews or even for any other exam or\nsome entrance exams like eight exam the\ncushions\nthing from algorithms also what is also\none of the key subject there so you will\nbe able to answer any type of question\nfrom there not all the lectures in the\norder I'll be giving the numbers for\neach topic so that you follow that order\nyou follow the sequence because I may be\nbreaking the major topic into small\ntopics and one more important leanness\nyour feedback is very important for me\nbecause alchemy I have made for you\nprepare few videos using presentations\nand other tools but now I'm giving a\nlecture on whiteboard so maybe i'm new\nfor the video quality and audio quality\nall these things so technically once i\nget set up so i need your feedback so i\ncan make my videos more and more better\nso your feedback is important for me to\nknow how the video quality and other\nquality you are getting it on your\ndevices because what i have checked on\ndifferent devices and i found that the\nresults are different so what because\nyou are using what i should improve\nvoice or what so any of your feedback\nlet us start with just introduction what\nis the main part on what is the length\nautumn why this return when it is\nwritten who will write it let us get\nanswers forties see algorithm as a\ndefinition it's a common definition\neverybody knows that it's a step by step\nprocedure for solving a computational\nproblem yes it is a step by step\nprocedure for solving a computational\nproblem then what is the program program\nis also establish the procedure for\nsolving a problem then what is the\ndifference between program and Anegada\nso by comparing program and Elgort or I\ncan make you understand the importance\nfor the meaning of a god let us take it\nhere's an angora and here's a program\nlet us see the first thing first\ndifference if you know the software\ndevelopment lifecycle means the phases\nof developing a software project in the\nphases of development of the project\nthere are two important phases design\nphase and the implementation phase if\nyou are not aware of it let me get you\nwhatever you want to manufacture or\nconstruct something by engineering\nprocedures then for step one if one of\nthe important step is designing first\nyou know designing make your design\nperfect and thorough so that you can\nunderstand what you are going to\nconstruct what you are going to develop\nand here near sure what you are going to\ndevelop then you start the development\nyou can't develop anything you cannot\nconstruct anything on trial and error\nbasis like you construct there's\nsomething naughty endomorphs wrong\ndestroyed and I get create a new one so\nno but it is easy easy in software\nengineering software engineer can write\nsome program and change the mind delete\nthe program and again started in over\nthere so that's why we cannot get the\nfeeling that we have this set amount so\nmuch amount of time in writing so\nuseless program so the point is first\nyou design and then you write the\nprogram so at the design time what do\nyou use so you're not reading a program\nthen what do you write so that same\nprogram we write it in simple English\nlike statements that are easy to\nunderstand without using proper syntax\nand we may not be ready\nmachine that is not computer remember I\ncame on paper or even if you're using a\nmachine also then you will not be\nwriting in some language you can you be\nwriting in ms word or notepad like\napplication so just you are getting\nfamiliar how your program going to work\nso that's nothing but an algorithm so\nalgorithm sorry is written at design\ntime and when the programs are done they\nare internet implementation time the\ndesign time an implementation time so\nfirst you make a design what your\nprocedures going to do what your\nsoftware is going to do come up with\nsome design and that design your program\nthen what do you call the person who who\ndesigning whatever program where doesn't\nthat yes if programmer is capable of\ndoing that he can do it otherwise the\nperson who will do this one should have\nthe domain knowledge the problems\nknowledge knowledge about the\nproblematic solution\nhe can give a solution the one who\nunderstand the problem and has the\ndomain knowledge\nsuppose you are developing a software or\na network come on a program for account\nthe accountant can understand accounting\nbetter or if you are writing an\napplication or develop an application\nfor hospital then doctors of the\nadministrative staff of an Hospital\ncanvass and the system better than a\nprogrammer so mostly the one who is\nhaving a knowledge about the domain for\nwhich the application is being developed\nthey can write on that so the person who\nI should have\ndomain knowledge who would like to\nprogram program so programmers can also\nhave the mid knowledge they can also\nhave the mandamus that he is acting as a\ndesigner and here he is acting as a\nprogrammer thanks what is the language\nused for writing algorithm you can use\nany language any language any English\nlanguage or you can use some\nmathematical rotations if you are ready\nEnglish let language it will be like\nreading power or somebody but don't\nwrite if you can if you want you can use\nmathematical notations also expect I\nrefuse mathematical notations so a\nlanguage have you used any language\nmeans English language or some\nmathematical notations can be use as\nlong as it is understandable by those\npeople who are using it like if a\ndesigner has written an algorithm that\nthe programmer will be right in a\nprogram fire so designers should\nunderstand and also programmers should\nunderstand that one right so the team of\nprogrammers who are working on that\nproject should be able to understand it\nthen this is written only using\nprogramming language like C C++ Java\nPython right so you can use different\nlanguages for developing a program the\nnext one more important thing is when\nyou write an algorithm is going to be\nhardware and software means operating\nsystem independent it's not dependent on\nhardware what's machine you are going to\nuse what is the configuration of the\nshe were to the operating system me that\nthe Linux operating system or Windows\noperating system we don't bother about\nit but when you write the program it is\na dependent on hardware and operating\nsystem so any other program you have to\nsell it some hardware I'll be showing to\nthem and also you have to select some\noperating system you may be doing it for\nLinux or you will be need for Windows so\nthe method will be different and the\nenvironment side-effect so is the\nimportant the next after adding an\nalgorithm we analyze an imaginary part\non means you will study them to find out\nare perfectly normal and our algorithm\nis efficient or not in terms of time and\nspace we will see what does it mean by\nnow and access so we will analyze an\nairport what do we do with the program\nso you don't have to study the program\nalready program is there just run it and\ncheck it so we don't\ntesting testing of the programs that's\nit these are few differences between\nalgorithm and program these differences\nwill be help you understand what our\nalgorithms alright now one more thing I\nwill tell you the syntax of the language\nthat we use any language can be use but\nwho actually write algorithms and who\nuse them and who write the programs of\nprogrammers who are coming from\nuniversity graduates mostly Union City\ngraduate knows at least C language so\nnote is mostly in the name of algorithm\nwe write C language program only so the\nbenefit is better and what is that\neverybody knows C language now so\ninstead of reading some other language\nto confuse we can use C language movie\nso that everybody can understand so even\nat a school level C language is being\ntaught so everybody\nso emergency language so I don't using C\nlanguage syntax for it in algorithms"
+
+ POST /api/transcript [32m200[39m in 2514ms
+Path: /api/generateNotes, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/generateNotes in 420ms (2651 modules)
+Starting generateResponseFromTranscript...
+Prompt generated: Generate notes for the following transcript in points: hello friends I'm going to start a
+course on algorithms and whoever messes
+up cake algorithm is a common subject
+for computer science engineering
+students most of the universities offer
+this course as a part of syllabus and
+this is a very cool subject and very
+important subject and students face some
+difficulties in some of the topics in
+this one they could not understand them
+very clearly so here I am going to make
+the subject more and more simple so that
+you can easily understand and even you
+can practice that and also remember it
+easily the importance of the subject is
+that apart from theoretical examination
+it is also important for competitive
+exams and even programming contests most
+of them are designed from this subject
+only if any programming challenge is
+there they mostly people come to
+questions from this subject so this one
+of the challenging subject for the
+student because they get a chance to
+solve different types of problems and
+they give the strategy or approach for
+solving the problem so some students
+fail to understand it properly so they
+could not get the approach for the
+strategy for solving the problems and
+they feel that they are lacking in the
+logic development or strategy
+development of a program so I'll be
+covering in depth each and everything
+right from the basics to the dead okay
+so that you will be able to answer any
+type of question from this forum I will
+cover the topics such that just you look
+at the question you can get asked that I
+guarantee you right so the thing is I
+will cover those points which are useful
+for solving the motions some job
+interviews or even for any other exam or
+some entrance exams like eight exam the
+cushions
+thing from algorithms also what is also
+one of the key subject there so you will
+be able to answer any type of question
+from there not all the lectures in the
+order I'll be giving the numbers for
+each topic so that you follow that order
+you follow the sequence because I may be
+breaking the major topic into small
+topics and one more important leanness
+your feedback is very important for me
+because alchemy I have made for you
+prepare few videos using presentations
+and other tools but now I'm giving a
+lecture on whiteboard so maybe i'm new
+for the video quality and audio quality
+all these things so technically once i
+get set up so i need your feedback so i
+can make my videos more and more better
+so your feedback is important for me to
+know how the video quality and other
+quality you are getting it on your
+devices because what i have checked on
+different devices and i found that the
+results are different so what because
+you are using what i should improve
+voice or what so any of your feedback
+let us start with just introduction what
+is the main part on what is the length
+autumn why this return when it is
+written who will write it let us get
+answers forties see algorithm as a
+definition it's a common definition
+everybody knows that it's a step by step
+procedure for solving a computational
+problem yes it is a step by step
+procedure for solving a computational
+problem then what is the program program
+is also establish the procedure for
+solving a problem then what is the
+difference between program and Anegada
+so by comparing program and Elgort or I
+can make you understand the importance
+for the meaning of a god let us take it
+here's an angora and here's a program
+let us see the first thing first
+difference if you know the software
+development lifecycle means the phases
+of developing a software project in the
+phases of development of the project
+there are two important phases design
+phase and the implementation phase if
+you are not aware of it let me get you
+whatever you want to manufacture or
+construct something by engineering
+procedures then for step one if one of
+the important step is designing first
+you know designing make your design
+perfect and thorough so that you can
+understand what you are going to
+construct what you are going to develop
+and here near sure what you are going to
+develop then you start the development
+you can't develop anything you cannot
+construct anything on trial and error
+basis like you construct there's
+something naughty endomorphs wrong
+destroyed and I get create a new one so
+no but it is easy easy in software
+engineering software engineer can write
+some program and change the mind delete
+the program and again started in over
+there so that's why we cannot get the
+feeling that we have this set amount so
+much amount of time in writing so
+useless program so the point is first
+you design and then you write the
+program so at the design time what do
+you use so you're not reading a program
+then what do you write so that same
+program we write it in simple English
+like statements that are easy to
+understand without using proper syntax
+and we may not be ready
+machine that is not computer remember I
+came on paper or even if you're using a
+machine also then you will not be
+writing in some language you can you be
+writing in ms word or notepad like
+application so just you are getting
+familiar how your program going to work
+so that's nothing but an algorithm so
+algorithm sorry is written at design
+time and when the programs are done they
+are internet implementation time the
+design time an implementation time so
+first you make a design what your
+procedures going to do what your
+software is going to do come up with
+some design and that design your program
+then what do you call the person who who
+designing whatever program where doesn't
+that yes if programmer is capable of
+doing that he can do it otherwise the
+person who will do this one should have
+the domain knowledge the problems
+knowledge knowledge about the
+problematic solution
+he can give a solution the one who
+understand the problem and has the
+domain knowledge
+suppose you are developing a software or
+a network come on a program for account
+the accountant can understand accounting
+better or if you are writing an
+application or develop an application
+for hospital then doctors of the
+administrative staff of an Hospital
+canvass and the system better than a
+programmer so mostly the one who is
+having a knowledge about the domain for
+which the application is being developed
+they can write on that so the person who
+I should have
+domain knowledge who would like to
+program program so programmers can also
+have the mid knowledge they can also
+have the mandamus that he is acting as a
+designer and here he is acting as a
+programmer thanks what is the language
+used for writing algorithm you can use
+any language any language any English
+language or you can use some
+mathematical rotations if you are ready
+English let language it will be like
+reading power or somebody but don't
+write if you can if you want you can use
+mathematical notations also expect I
+refuse mathematical notations so a
+language have you used any language
+means English language or some
+mathematical notations can be use as
+long as it is understandable by those
+people who are using it like if a
+designer has written an algorithm that
+the programmer will be right in a
+program fire so designers should
+understand and also programmers should
+understand that one right so the team of
+programmers who are working on that
+project should be able to understand it
+then this is written only using
+programming language like C C++ Java
+Python right so you can use different
+languages for developing a program the
+next one more important thing is when
+you write an algorithm is going to be
+hardware and software means operating
+system independent it's not dependent on
+hardware what's machine you are going to
+use what is the configuration of the
+she were to the operating system me that
+the Linux operating system or Windows
+operating system we don't bother about
+it but when you write the program it is
+a dependent on hardware and operating
+system so any other program you have to
+sell it some hardware I'll be showing to
+them and also you have to select some
+operating system you may be doing it for
+Linux or you will be need for Windows so
+the method will be different and the
+environment side-effect so is the
+important the next after adding an
+algorithm we analyze an imaginary part
+on means you will study them to find out
+are perfectly normal and our algorithm
+is efficient or not in terms of time and
+space we will see what does it mean by
+now and access so we will analyze an
+airport what do we do with the program
+so you don't have to study the program
+already program is there just run it and
+check it so we don't
+testing testing of the programs that's
+it these are few differences between
+algorithm and program these differences
+will be help you understand what our
+algorithms alright now one more thing I
+will tell you the syntax of the language
+that we use any language can be use but
+who actually write algorithms and who
+use them and who write the programs of
+programmers who are coming from
+university graduates mostly Union City
+graduate knows at least C language so
+note is mostly in the name of algorithm
+we write C language program only so the
+benefit is better and what is that
+everybody knows C language now so
+instead of reading some other language
+to confuse we can use C language movie
+so that everybody can understand so even
+at a school level C language is being
+taught so everybody
+so emergency language so I don't using C
+language syntax for it in algorithms
+Sending prompt to Gemini...
+Path: /dashboard/roadmap/e8fbf800-5aa2-4d5c-947c-133648c8267d, Session: true, Public: false
+ GET /dashboard/roadmap/e8fbf800-5aa2-4d5c-947c-133648c8267d [32m200[39m in 48ms
+Gemini response received.
+Extracted response object.
+Extracted response text: Here are the notes in points from the provided transcript:
+
+**Course Introduction and Goals:**
+
+*   Course focuses on algorithms, a core CS topic.
+*   Aims to simplify complex algorithm concepts.
+*   Emphasis on understanding and practical application.
+*   Subject's importance: theoretical exams, competitive exams, programming contests.
+*   Goal is to help students develop problem-solving strategies.
+*   Will cover topics from basics to advanced, guaranteeing question-solving ability.
+*   Useful for job interviews, GATE, and other exams.
+*   Lectures numbered for sequential learning.
+
+**Feedback Request:**
+
+*   Feedback is crucial for video and audio quality improvement.
+*   Needs input on video and audio quality on different devices.
+
+**Introduction to Algorithms:**
+
+*   Definition of algorithm: Step-by-step procedure for solving computational problems.
+*   Comparison between algorithm and program is used to define a program.
+*   Algorithm vs. Program:
+    *   **Design Phase vs. Implementation Phase:** Algorithms are created during the design phase; programs during the implementation phase.
+    *   **Writer:** Domain experts (accountants, doctors, etc.) or capable programmers can design algorithms. Programmers write programs.
+    *   **Language:** Algorithms can be written in any understandable language (English, mathematical notation). Programs are written in programming languages (C, C++, Java, Python, etc.).
+    *   **Dependency:** Algorithms are hardware and operating system independent. Programs are dependent on hardware and operating system.
+    *   **Analysis:** Algorithms are analyzed for correctness and efficiency (time and space). Programs are tested.
+
+**Algorithm Syntax and Usage:**
+
+*   C language is often used for writing algorithms due to its familiarity.
+*   University graduates generally have C language knowledge.
+*   School level also teaches C language.
+
+generateResponseFromTranscript completed successfully.
+Response from generateResponseFromTranscript: Here are the notes in points from the provided transcript:
+
+**Course Introduction and Goals:**
+
+*   Course focuses on algorithms, a core CS topic.
+*   Aims to simplify complex algorithm concepts.
+*   Emphasis on understanding and practical application.
+*   Subject's importance: theoretical exams, competitive exams, programming contests.
+*   Goal is to help students develop problem-solving strategies.
+*   Will cover topics from basics to advanced, guaranteeing question-solving ability.
+*   Useful for job interviews, GATE, and other exams.
+*   Lectures numbered for sequential learning.
+
+**Feedback Request:**
+
+*   Feedback is crucial for video and audio quality improvement.
+*   Needs input on video and audio quality on different devices.
+
+**Introduction to Algorithms:**
+
+*   Definition of algorithm: Step-by-step procedure for solving computational problems.
+*   Comparison between algorithm and program is used to define a program.
+*   Algorithm vs. Program:
+    *   **Design Phase vs. Implementation Phase:** Algorithms are created during the design phase; programs during the implementation phase.
+    *   **Writer:** Domain experts (accountants, doctors, etc.) or capable programmers can design algorithms. Programmers write programs.
+    *   **Language:** Algorithms can be written in any understandable language (English, mathematical notation). Programs are written in programming languages (C, C++, Java, Python, etc.).
+    *   **Dependency:** Algorithms are hardware and operating system independent. Programs are dependent on hardware and operating system.
+    *   **Analysis:** Algorithms are analyzed for correctness and efficiency (time and space). Programs are tested.
+
+**Algorithm Syntax and Usage:**
+
+*   C language is often used for writing algorithms due to its familiarity.
+*   University graduates generally have C language knowledge.
+*   School level also teaches C language.
+
+ POST /api/generateNotes [32m200[39m in 3638ms
+ │ [37mPOST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent 200 in 3182ms [33m(cache skip)[37m[39m
+ │ │ [90mCache skipped reason: ([37mauto no cache[90m)[39m
+Path: /api/transcript, Session: true, Public: true
+✅ Request received
+📌 Video URL: https://www.youtube.com/watch?v=0IAPZzGSbME&q=HTML%20basic%20structure%20tutorial
+📌 Video ID: 0IAPZzGSbME
+📂 Script Path: C:\Users\gaura\Desktop\dyp\DevClash-Ascend\scripts\get_transcript.py
+📄 stdout: "hello friends I'm going to start a\ncourse on algorithms and whoever messes\nup cake algorithm is a common subject\nfor computer science engineering\nstudents most of the universities offer\nthis course as a part of syllabus and\nthis is a very cool subject and very\nimportant subject and students face some\ndifficulties in some of the topics in\nthis one they could not understand them\nvery clearly so here I am going to make\nthe subject more and more simple so that\nyou can easily understand and even you\ncan practice that and also remember it\neasily the importance of the subject is\nthat apart from theoretical examination\nit is also important for competitive\nexams and even programming contests most\nof them are designed from this subject\nonly if any programming challenge is\nthere they mostly people come to\nquestions from this subject so this one\nof the challenging subject for the\nstudent because they get a chance to\nsolve different types of problems and\nthey give the strategy or approach for\nsolving the problem so some students\nfail to understand it properly so they\ncould not get the approach for the\nstrategy for solving the problems and\nthey feel that they are lacking in the\nlogic development or strategy\ndevelopment of a program so I'll be\ncovering in depth each and everything\nright from the basics to the dead okay\nso that you will be able to answer any\ntype of question from this forum I will\ncover the topics such that just you look\nat the question you can get asked that I\nguarantee you right so the thing is I\nwill cover those points which are useful\nfor solving the motions some job\ninterviews or even for any other exam or\nsome entrance exams like eight exam the\ncushions\nthing from algorithms also what is also\none of the key subject there so you will\nbe able to answer any type of question\nfrom there not all the lectures in the\norder I'll be giving the numbers for\neach topic so that you follow that order\nyou follow the sequence because I may be\nbreaking the major topic into small\ntopics and one more important leanness\nyour feedback is very important for me\nbecause alchemy I have made for you\nprepare few videos using presentations\nand other tools but now I'm giving a\nlecture on whiteboard so maybe i'm new\nfor the video quality and audio quality\nall these things so technically once i\nget set up so i need your feedback so i\ncan make my videos more and more better\nso your feedback is important for me to\nknow how the video quality and other\nquality you are getting it on your\ndevices because what i have checked on\ndifferent devices and i found that the\nresults are different so what because\nyou are using what i should improve\nvoice or what so any of your feedback\nlet us start with just introduction what\nis the main part on what is the length\nautumn why this return when it is\nwritten who will write it let us get\nanswers forties see algorithm as a\ndefinition it's a common definition\neverybody knows that it's a step by step\nprocedure for solving a computational\nproblem yes it is a step by step\nprocedure for solving a computational\nproblem then what is the program program\nis also establish the procedure for\nsolving a problem then what is the\ndifference between program and Anegada\nso by comparing program and Elgort or I\ncan make you understand the importance\nfor the meaning of a god let us take it\nhere's an angora and here's a program\nlet us see the first thing first\ndifference if you know the software\ndevelopment lifecycle means the phases\nof developing a software project in the\nphases of development of the project\nthere are two important phases design\nphase and the implementation phase if\nyou are not aware of it let me get you\nwhatever you want to manufacture or\nconstruct something by engineering\nprocedures then for step one if one of\nthe important step is designing first\nyou know designing make your design\nperfect and thorough so that you can\nunderstand what you are going to\nconstruct what you are going to develop\nand here near sure what you are going to\ndevelop then you start the development\nyou can't develop anything you cannot\nconstruct anything on trial and error\nbasis like you construct there's\nsomething naughty endomorphs wrong\ndestroyed and I get create a new one so\nno but it is easy easy in software\nengineering software engineer can write\nsome program and change the mind delete\nthe program and again started in over\nthere so that's why we cannot get the\nfeeling that we have this set amount so\nmuch amount of time in writing so\nuseless program so the point is first\nyou design and then you write the\nprogram so at the design time what do\nyou use so you're not reading a program\nthen what do you write so that same\nprogram we write it in simple English\nlike statements that are easy to\nunderstand without using proper syntax\nand we may not be ready\nmachine that is not computer remember I\ncame on paper or even if you're using a\nmachine also then you will not be\nwriting in some language you can you be\nwriting in ms word or notepad like\napplication so just you are getting\nfamiliar how your program going to work\nso that's nothing but an algorithm so\nalgorithm sorry is written at design\ntime and when the programs are done they\nare internet implementation time the\ndesign time an implementation time so\nfirst you make a design what your\nprocedures going to do what your\nsoftware is going to do come up with\nsome design and that design your program\nthen what do you call the person who who\ndesigning whatever program where doesn't\nthat yes if programmer is capable of\ndoing that he can do it otherwise the\nperson who will do this one should have\nthe domain knowledge the problems\nknowledge knowledge about the\nproblematic solution\nhe can give a solution the one who\nunderstand the problem and has the\ndomain knowledge\nsuppose you are developing a software or\na network come on a program for account\nthe accountant can understand accounting\nbetter or if you are writing an\napplication or develop an application\nfor hospital then doctors of the\nadministrative staff of an Hospital\ncanvass and the system better than a\nprogrammer so mostly the one who is\nhaving a knowledge about the domain for\nwhich the application is being developed\nthey can write on that so the person who\nI should have\ndomain knowledge who would like to\nprogram program so programmers can also\nhave the mid knowledge they can also\nhave the mandamus that he is acting as a\ndesigner and here he is acting as a\nprogrammer thanks what is the language\nused for writing algorithm you can use\nany language any language any English\nlanguage or you can use some\nmathematical rotations if you are ready\nEnglish let language it will be like\nreading power or somebody but don't\nwrite if you can if you want you can use\nmathematical notations also expect I\nrefuse mathematical notations so a\nlanguage have you used any language\nmeans English language or some\nmathematical notations can be use as\nlong as it is understandable by those\npeople who are using it like if a\ndesigner has written an algorithm that\nthe programmer will be right in a\nprogram fire so designers should\nunderstand and also programmers should\nunderstand that one right so the team of\nprogrammers who are working on that\nproject should be able to understand it\nthen this is written only using\nprogramming language like C C++ Java\nPython right so you can use different\nlanguages for developing a program the\nnext one more important thing is when\nyou write an algorithm is going to be\nhardware and software means operating\nsystem independent it's not dependent on\nhardware what's machine you are going to\nuse what is the configuration of the\nshe were to the operating system me that\nthe Linux operating system or Windows\noperating system we don't bother about\nit but when you write the program it is\na dependent on hardware and operating\nsystem so any other program you have to\nsell it some hardware I'll be showing to\nthem and also you have to select some\noperating system you may be doing it for\nLinux or you will be need for Windows so\nthe method will be different and the\nenvironment side-effect so is the\nimportant the next after adding an\nalgorithm we analyze an imaginary part\non means you will study them to find out\nare perfectly normal and our algorithm\nis efficient or not in terms of time and\nspace we will see what does it mean by\nnow and access so we will analyze an\nairport what do we do with the program\nso you don't have to study the program\nalready program is there just run it and\ncheck it so we don't\ntesting testing of the programs that's\nit these are few differences between\nalgorithm and program these differences\nwill be help you understand what our\nalgorithms alright now one more thing I\nwill tell you the syntax of the language\nthat we use any language can be use but\nwho actually write algorithms and who\nuse them and who write the programs of\nprogrammers who are coming from\nuniversity graduates mostly Union City\ngraduate knows at least C language so\nnote is mostly in the name of algorithm\nwe write C language program only so the\nbenefit is better and what is that\neverybody knows C language now so\ninstead of reading some other language\nto confuse we can use C language movie\nso that everybody can understand so even\nat a school level C language is being\ntaught so everybody\nso emergency language so I don't using C\nlanguage syntax for it in algorithms"
+
+ POST /api/transcript [32m200[39m in 1888ms
+Path: /api/generateNotes, Session: true, Public: true
+Starting generateResponseFromTranscript...
+Prompt generated: Generate notes for the following transcript in points: hello friends I'm going to start a
+course on algorithms and whoever messes
+up cake algorithm is a common subject
+for computer science engineering
+students most of the universities offer
+this course as a part of syllabus and
+this is a very cool subject and very
+important subject and students face some
+difficulties in some of the topics in
+this one they could not understand them
+very clearly so here I am going to make
+the subject more and more simple so that
+you can easily understand and even you
+can practice that and also remember it
+easily the importance of the subject is
+that apart from theoretical examination
+it is also important for competitive
+exams and even programming contests most
+of them are designed from this subject
+only if any programming challenge is
+there they mostly people come to
+questions from this subject so this one
+of the challenging subject for the
+student because they get a chance to
+solve different types of problems and
+they give the strategy or approach for
+solving the problem so some students
+fail to understand it properly so they
+could not get the approach for the
+strategy for solving the problems and
+they feel that they are lacking in the
+logic development or strategy
+development of a program so I'll be
+covering in depth each and everything
+right from the basics to the dead okay
+so that you will be able to answer any
+type of question from this forum I will
+cover the topics such that just you look
+at the question you can get asked that I
+guarantee you right so the thing is I
+will cover those points which are useful
+for solving the motions some job
+interviews or even for any other exam or
+some entrance exams like eight exam the
+cushions
+thing from algorithms also what is also
+one of the key subject there so you will
+be able to answer any type of question
+from there not all the lectures in the
+order I'll be giving the numbers for
+each topic so that you follow that order
+you follow the sequence because I may be
+breaking the major topic into small
+topics and one more important leanness
+your feedback is very important for me
+because alchemy I have made for you
+prepare few videos using presentations
+and other tools but now I'm giving a
+lecture on whiteboard so maybe i'm new
+for the video quality and audio quality
+all these things so technically once i
+get set up so i need your feedback so i
+can make my videos more and more better
+so your feedback is important for me to
+know how the video quality and other
+quality you are getting it on your
+devices because what i have checked on
+different devices and i found that the
+results are different so what because
+you are using what i should improve
+voice or what so any of your feedback
+let us start with just introduction what
+is the main part on what is the length
+autumn why this return when it is
+written who will write it let us get
+answers forties see algorithm as a
+definition it's a common definition
+everybody knows that it's a step by step
+procedure for solving a computational
+problem yes it is a step by step
+procedure for solving a computational
+problem then what is the program program
+is also establish the procedure for
+solving a problem then what is the
+difference between program and Anegada
+so by comparing program and Elgort or I
+can make you understand the importance
+for the meaning of a god let us take it
+here's an angora and here's a program
+let us see the first thing first
+difference if you know the software
+development lifecycle means the phases
+of developing a software project in the
+phases of development of the project
+there are two important phases design
+phase and the implementation phase if
+you are not aware of it let me get you
+whatever you want to manufacture or
+construct something by engineering
+procedures then for step one if one of
+the important step is designing first
+you know designing make your design
+perfect and thorough so that you can
+understand what you are going to
+construct what you are going to develop
+and here near sure what you are going to
+develop then you start the development
+you can't develop anything you cannot
+construct anything on trial and error
+basis like you construct there's
+something naughty endomorphs wrong
+destroyed and I get create a new one so
+no but it is easy easy in software
+engineering software engineer can write
+some program and change the mind delete
+the program and again started in over
+there so that's why we cannot get the
+feeling that we have this set amount so
+much amount of time in writing so
+useless program so the point is first
+you design and then you write the
+program so at the design time what do
+you use so you're not reading a program
+then what do you write so that same
+program we write it in simple English
+like statements that are easy to
+understand without using proper syntax
+and we may not be ready
+machine that is not computer remember I
+came on paper or even if you're using a
+machine also then you will not be
+writing in some language you can you be
+writing in ms word or notepad like
+application so just you are getting
+familiar how your program going to work
+so that's nothing but an algorithm so
+algorithm sorry is written at design
+time and when the programs are done they
+are internet implementation time the
+design time an implementation time so
+first you make a design what your
+procedures going to do what your
+software is going to do come up with
+some design and that design your program
+then what do you call the person who who
+designing whatever program where doesn't
+that yes if programmer is capable of
+doing that he can do it otherwise the
+person who will do this one should have
+the domain knowledge the problems
+knowledge knowledge about the
+problematic solution
+he can give a solution the one who
+understand the problem and has the
+domain knowledge
+suppose you are developing a software or
+a network come on a program for account
+the accountant can understand accounting
+better or if you are writing an
+application or develop an application
+for hospital then doctors of the
+administrative staff of an Hospital
+canvass and the system better than a
+programmer so mostly the one who is
+having a knowledge about the domain for
+which the application is being developed
+they can write on that so the person who
+I should have
+domain knowledge who would like to
+program program so programmers can also
+have the mid knowledge they can also
+have the mandamus that he is acting as a
+designer and here he is acting as a
+programmer thanks what is the language
+used for writing algorithm you can use
+any language any language any English
+language or you can use some
+mathematical rotations if you are ready
+English let language it will be like
+reading power or somebody but don't
+write if you can if you want you can use
+mathematical notations also expect I
+refuse mathematical notations so a
+language have you used any language
+means English language or some
+mathematical notations can be use as
+long as it is understandable by those
+people who are using it like if a
+designer has written an algorithm that
+the programmer will be right in a
+program fire so designers should
+understand and also programmers should
+understand that one right so the team of
+programmers who are working on that
+project should be able to understand it
+then this is written only using
+programming language like C C++ Java
+Python right so you can use different
+languages for developing a program the
+next one more important thing is when
+you write an algorithm is going to be
+hardware and software means operating
+system independent it's not dependent on
+hardware what's machine you are going to
+use what is the configuration of the
+she were to the operating system me that
+the Linux operating system or Windows
+operating system we don't bother about
+it but when you write the program it is
+a dependent on hardware and operating
+system so any other program you have to
+sell it some hardware I'll be showing to
+them and also you have to select some
+operating system you may be doing it for
+Linux or you will be need for Windows so
+the method will be different and the
+environment side-effect so is the
+important the next after adding an
+algorithm we analyze an imaginary part
+on means you will study them to find out
+are perfectly normal and our algorithm
+is efficient or not in terms of time and
+space we will see what does it mean by
+now and access so we will analyze an
+airport what do we do with the program
+so you don't have to study the program
+already program is there just run it and
+check it so we don't
+testing testing of the programs that's
+it these are few differences between
+algorithm and program these differences
+will be help you understand what our
+algorithms alright now one more thing I
+will tell you the syntax of the language
+that we use any language can be use but
+who actually write algorithms and who
+use them and who write the programs of
+programmers who are coming from
+university graduates mostly Union City
+graduate knows at least C language so
+note is mostly in the name of algorithm
+we write C language program only so the
+benefit is better and what is that
+everybody knows C language now so
+instead of reading some other language
+to confuse we can use C language movie
+so that everybody can understand so even
+at a school level C language is being
+taught so everybody
+so emergency language so I don't using C
+language syntax for it in algorithms
+Sending prompt to Gemini...
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 23ms
+Path: /api/roadmaps/user, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/user in 385ms (1406 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1812ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1234ms
+Gemini response received.
+Extracted response object.
+Extracted response text: Here are the notes from the transcript, organized into points:
+
+**I. Course Introduction:**
+
+*   Course focuses on algorithms, a core subject in computer science.
+*   Algorithms are important for:
+    *   Theoretical exams
+    *   Competitive exams
+    *   Programming contests
+*   Aims to simplify the subject for easier understanding and practice.
+*   Will cover topics in-depth, from basics to advanced concepts.
+*   Goal: To enable students to easily answer any type of algorithm question.
+*   Covers topics useful for job interviews and entrance exams (e.g., GATE).
+*   Lectures will be numbered for sequential learning.
+
+**II. Feedback Request:**
+
+*   Feedback is important to improve the course.
+*   Specifically requests feedback on:
+    *   Video quality
+    *   Audio quality
+
+**III. Introduction to Algorithms:**
+
+*   **Definition of Algorithm:** A step-by-step procedure for solving a computational problem.
+*   Difference between program and algorithm:
+    *Algorithm is at design time.
+    *Program is at implementation time.
+    *The designer is the person who designs it and has domain knowledge.
+
+**IV. Algorithm vs. Program:**
+
+*   **Design vs. Implementation:**
+    *   Algorithm is written during the design phase.
+    *   Program is written during the implementation phase.
+*   **Who Writes?**
+    *   Algorithm: Someone with domain knowledge (e.g., accountant for accounting software).  Can be a programmer with domain knowledge.
+    *   Program: Programmer
+*   **Language:**
+    *   Algorithm: Can be written in any language (English, mathematical notations) as long as it's understandable.
+    *   Program: Written in a programming language (C, C++, Java, Python, etc.).
+*   **Hardware/Software Dependence:**
+    *   Algorithm: Hardware and operating system independent.
+    *   Program: Hardware and operating system dependent.
+*   **Analysis/Testing:**
+    *   Algorithm: Analyzed for efficiency (time and space).
+    *   Program: Tested by running it.
+
+**V. Algorithm Syntax (C Language):**
+
+*   Will primarily use C language syntax for algorithms.
+*   Reasoning: C is widely known, even at the school level, making algorithms more accessible.
+
+generateResponseFromTranscript completed successfully.
+Response from generateResponseFromTranscript: Here are the notes from the transcript, organized into points:
+
+**I. Course Introduction:**
+
+*   Course focuses on algorithms, a core subject in computer science.
+*   Algorithms are important for:
+    *   Theoretical exams
+    *   Competitive exams
+    *   Programming contests
+*   Aims to simplify the subject for easier understanding and practice.
+*   Will cover topics in-depth, from basics to advanced concepts.
+*   Goal: To enable students to easily answer any type of algorithm question.
+*   Covers topics useful for job interviews and entrance exams (e.g., GATE).
+*   Lectures will be numbered for sequential learning.
+
+**II. Feedback Request:**
+
+*   Feedback is important to improve the course.
+*   Specifically requests feedback on:
+    *   Video quality
+    *   Audio quality
+
+**III. Introduction to Algorithms:**
+
+*   **Definition of Algorithm:** A step-by-step procedure for solving a computational problem.
+*   Difference between program and algorithm:
+    *Algorithm is at design time.
+    *Program is at implementation time.
+    *The designer is the person who designs it and has domain knowledge.
+
+**IV. Algorithm vs. Program:**
+
+*   **Design vs. Implementation:**
+    *   Algorithm is written during the design phase.
+    *   Program is written during the implementation phase.
+*   **Who Writes?**
+    *   Algorithm: Someone with domain knowledge (e.g., accountant for accounting software).  Can be a programmer with domain knowledge.
+    *   Program: Programmer
+*   **Language:**
+    *   Algorithm: Can be written in any language (English, mathematical notations) as long as it's understandable.
+    *   Program: Written in a programming language (C, C++, Java, Python, etc.).
+*   **Hardware/Software Dependence:**
+    *   Algorithm: Hardware and operating system independent.
+    *   Program: Hardware and operating system dependent.
+*   **Analysis/Testing:**
+    *   Algorithm: Analyzed for efficiency (time and space).
+    *   Program: Tested by running it.
+
+**V. Algorithm Syntax (C Language):**
+
+*   Will primarily use C language syntax for algorithms.
+*   Reasoning: C is widely known, even at the school level, making algorithms more accessible.
+
+ POST /api/generateNotes [32m200[39m in 4807ms
+ │ [37mPOST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent 200 in 4798ms [33m(cache skip)[37m[39m
+ │ │ [90mCache skipped reason: ([37mauto no cache[90m)[39m
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8568[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 71ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8568[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 62ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8568[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 98ms

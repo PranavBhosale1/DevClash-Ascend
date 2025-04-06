@@ -273,7 +273,7 @@ export default function CreateLearningPathPage() {
       return
     }
 
-   
+
     try {
       console.log("Creating learning path for:", skill)
 
@@ -281,6 +281,9 @@ export default function CreateLearningPathPage() {
       let hoursPerWeek = 5 // default
       if (timeCommitment === "1-week") hoursPerWeek = 10
       if (timeCommitment === "3-months") hoursPerWeek = 3
+
+      // Create file name from syllabus if available
+      const courseName = selectedFile ? selectedFile.name.replace(/\.[^/.]+$/, "") : skill;
 
       // Create roadmap in Supabase
       const { data: roadmapData, error: roadmapError } = await supabase
@@ -320,6 +323,7 @@ export default function CreateLearningPathPage() {
           creator,
           supabaseUserId, // Pass Supabase user ID directly
           roadmapId,
+          courseName // Pass the course name to the generateLearningPath function
         )
 
         console.log("Learning path generated successfully:", learningPath.title)

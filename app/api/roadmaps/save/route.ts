@@ -10,6 +10,7 @@ const Roadmap = mongoose.models.Roadmap || mongoose.model('Roadmap', new mongoos
     supabaseUserId: { type: String, required: true, index: true }, // Explicitly store Supabase user ID
     title: { type: String, required: true },
     description: { type: String },
+    courseName: { type: String }, // The name of the course from which the roadmap was generated
     topics: [
       {
         name: { type: String, required: true },
@@ -36,6 +37,7 @@ export async function POST(request: Request) {
     console.log('Received data:', { 
       roadmapId: data.roadmapId, 
       userId: data.userId, 
+      courseName: data.courseName,
       topicsCount: data.topics?.length 
     });
     
@@ -62,6 +64,7 @@ export async function POST(request: Request) {
         supabaseUserId: data.userId, // Store Supabase user ID in its own field
         title: data.title,
         description: data.description,
+        courseName: data.courseName, // Save the course name
         topics: data.topics
       },
       { upsert: true, new: true }
