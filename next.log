@@ -4619,3 +4619,3920 @@ Using existing MongoDB connection
   time: [33m8568[39m
 }
  POST /api/roadmaps/update-time [32m200[39m in 98ms
+ [32m[1m✓[22m[39m Compiled in 275ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 24ms
+ [32m[1m✓[22m[39m Compiled in 243ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 241ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 23ms
+ [32m[1m✓[22m[39m Compiled in 246ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 229ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 240ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 322ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 235ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8568[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 127ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 140ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 78ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 234ms (1247 modules)
+ GET /dashboard [32m200[39m in 94ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 119ms
+ [32m[1m✓[22m[39m Compiled in 292ms (1247 modules)
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /dashboard [32m200[39m in 150ms
+Path: /dashboard, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /api/profile ...
+ [32m[1m✓[22m[39m Compiled /api/profile in 900ms (2655 modules)
+ GET /dashboard [32m200[39m in 714ms
+Using existing MongoDB connection
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1234ms
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1277ms
+ [32m[1m✓[22m[39m Compiled in 245ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 24ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8572[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 68ms
+ [32m[1m✓[22m[39m Compiled in 277ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 234ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 17ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ [32m[1m✓[22m[39m Compiled in 297ms (1247 modules)
+ GET /dashboard [32m200[39m in 119ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 356ms
+ [32m[1m✓[22m[39m Compiled in 228ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 199ms
+ [32m[1m✓[22m[39m Compiled in 248ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 149ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+ [32m[1m✓[22m[39m Compiled in 304ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1066ms
+ GET /dashboard [32m200[39m in 43ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 388ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 265ms
+ [32m[1m✓[22m[39m Compiled in 238ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 150ms
+ [32m[1m✓[22m[39m Compiled in 243ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 309ms (1247 modules)
+ GET /dashboard [32m200[39m in 91ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 145ms
+ [32m[1m✓[22m[39m Compiled in 248ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 288ms (1247 modules)
+ GET /dashboard [32m200[39m in 284ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+ GET /dashboard [32m200[39m in 194ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+ GET /dashboard [32m200[39m in 179ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 248ms (1247 modules)
+ GET /dashboard [32m200[39m in 48ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 93ms
+ [32m[1m✓[22m[39m Compiled in 283ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 196ms
+ [32m[1m✓[22m[39m Compiled in 245ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 241ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 228ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 264ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 17ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 103ms
+ [32m[1m✓[22m[39m Compiled in 236ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 225ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 34ms
+ [32m[1m✓[22m[39m Compiled in 243ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+ GET /dashboard [32m200[39m in 84ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 80ms
+ [32m[1m✓[22m[39m Compiled in 243ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 134ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 140ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 251ms (1247 modules)
+ GET /dashboard [32m200[39m in 94ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 72ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 235ms (1247 modules)
+ GET /dashboard [32m200[39m in 84ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 236ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 254ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 41ms
+ [32m[1m✓[22m[39m Compiled in 260ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 60ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 235ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 234ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 57ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 41ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 234ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 17ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 402ms
+ [32m[1m✓[22m[39m Compiled in 339ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 246ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 17ms
+ [32m[1m✓[22m[39m Compiled in 248ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 26ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 425ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 88ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 33ms
+ [32m[1m✓[22m[39m Compiled in 226ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 128ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 129ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 84ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 139ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+ GET /dashboard [32m200[39m in 79ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 78ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 33ms
+ [32m[1m✓[22m[39m Compiled in 254ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 82ms
+ [32m[1m✓[22m[39m Compiled in 229ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 125ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 225ms (1247 modules)
+ GET /dashboard [32m200[39m in 81ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+ GET /dashboard [32m200[39m in 88ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+ GET /dashboard [32m200[39m in 88ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+ GET /dashboard [32m200[39m in 148ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+ GET /dashboard [32m200[39m in 159ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+ GET /dashboard [32m200[39m in 83ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 72ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 172ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 82ms
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 229ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 36ms
+ [32m[1m✓[22m[39m Compiled in 233ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 239ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 233ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 175ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 90ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 139ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+ GET /dashboard [32m200[39m in 78ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 89ms
+ [32m[1m✓[22m[39m Compiled in 233ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 69ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 261ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 126ms
+ [32m[1m✓[22m[39m Compiled in 237ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 33ms
+ [32m[1m✓[22m[39m Compiled in 231ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 238ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 225ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 104ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 231ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 36ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 75ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 19ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 207ms
+ GET /dashboard [32m200[39m in 139ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 73ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+ GET /dashboard [32m200[39m in 83ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 33ms
+ [32m[1m✓[22m[39m Compiled in 274ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 125ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 188ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 18ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 67ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 36ms
+ [32m[1m✓[22m[39m Compiled in 236ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 192ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 109ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 192ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 41ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 69ms
+ [32m[1m✓[22m[39m Compiled in 242ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 226ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 86ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 192ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 36ms
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 128ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 77ms
+ [32m[1m✓[22m[39m Compiled in 269ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 81ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 181ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 230ms (1247 modules)
+ GET /dashboard [32m200[39m in 95ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 67ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 131ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 167ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 40ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 216ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 191ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 65ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 260ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 22ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 190ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 232ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 36ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 161ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 128ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 225ms (1247 modules)
+ GET /dashboard [32m200[39m in 100ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+ GET /dashboard [32m200[39m in 79ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 8ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 229ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 191ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 14ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 43ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 35ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 15ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 129ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 191ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 75ms
+ [32m[1m✓[22m[39m Compiled in 261ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 235ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 42ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 226ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 205ms
+ GET /dashboard [32m200[39m in 176ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 76ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 165ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 190ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 31ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 228ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 94ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 214ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 31ms
+ [32m[1m✓[22m[39m Compiled in 215ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 254ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 235ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+❌ Error saving time: [Error: read ECONNRESET] {
+  errno: [33m-4077[39m,
+  code: [32m'ECONNRESET'[39m,
+  syscall: [32m'read'[39m
+}
+ POST /api/roadmaps/update-time [31m500[39m in 19288ms
+ [32m[1m✓[22m[39m Compiled in 191ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 72ms
+ [32m[1m✓[22m[39m Compiled in 238ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 131ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 76ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 82ms
+ [32m[1m✓[22m[39m Compiled in 229ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 166ms
+ [32m[1m✓[22m[39m Compiled in 210ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 192ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 34ms
+ [32m[1m✓[22m[39m Compiled in 235ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 192ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 191ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 212ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 34ms
+ [32m[1m✓[22m[39m Compiled in 229ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 93ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 272ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 223ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 17ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 198ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 226ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 34ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 202ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 14ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 157ms
+ [32m[1m✓[22m[39m Compiled in 206ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 168ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 86ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 125ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 85ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+ [32m[1m✓[22m[39m Compiled in 207ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 184ms
+ [32m[1m✓[22m[39m Compiled in 262ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 132ms
+Path: /dashboard, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled in 220ms (1247 modules)
+ GET /dashboard [32m200[39m in 42ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 15ms
+ [32m[1m✓[22m[39m Compiled in 201ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 194ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 199ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 423ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+ [32m[1m✓[22m[39m Compiled in 242ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 67ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 138ms
+ [32m[1m✓[22m[39m Compiled in 237ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 249ms
+ [32m[1m✓[22m[39m Compiled in 319ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 85ms
+ [32m[1m✓[22m[39m Compiled in 221ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 83ms
+ [32m[1m✓[22m[39m Compiled in 213ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 184ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 227ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 233ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 189ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 200ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 219ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 197ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 193ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 66ms
+ [32m[1m✓[22m[39m Compiled in 203ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 217ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 12ms
+ [32m[1m✓[22m[39m Compiled in 195ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 13ms
+ [32m[1m✓[22m[39m Compiled in 205ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 196ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 204ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 23ms
+ [32m[1m✓[22m[39m Compiled in 211ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 126ms
+ [32m[1m✓[22m[39m Compiled in 218ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 209ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 16ms
+ [32m[1m✓[22m[39m Compiled in 226ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 35ms
+ [32m[1m✓[22m[39m Compiled in 222ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 10ms
+ [32m[1m✓[22m[39m Compiled in 208ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 224ms (1247 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 11ms
+ [32m[1m✓[22m[39m Compiled in 179s (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+❌ Error saving time: [Error: read ECONNRESET] {
+  errno: [33m-4077[39m,
+  code: [32m'ECONNRESET'[39m,
+  syscall: [32m'read'[39m
+}
+ POST /api/roadmaps/update-time [31m500[39m in 67ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 2040ms
+ [32m[1m✓[22m[39m Compiled in 780ms (1247 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 102ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 74ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/user, Session: true, Public: true
+Using existing MongoDB connection
+Path: /api/profile, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 105ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8573[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 135ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1378ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2763ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8580[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 132ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8580[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 139ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8584[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 362ms
+ GET /dashboard [32m200[39m in 396ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 68ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 43ms
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 114ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 73ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1136ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1659ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 499ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1677ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /dashboard/leaderboard, Session: true, Public: false
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+ [37m[1m○[22m[39m Compiling /dashboard/leaderboard ...
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1412ms
+ [32m[1m✓[22m[39m Compiled /dashboard/leaderboard in 13.6s (2662 modules)
+ GET /dashboard/leaderboard [32m200[39m in 14273ms
+Path: /dashboard/leaderboard, Session: true, Public: false
+ GET /dashboard/leaderboard [32m200[39m in 78ms
+Path: /dashboard/leaderboard, Session: true, Public: false
+ GET /dashboard/leaderboard [32m200[39m in 151ms
+Path: /api/leaderboard, Session: true, Public: true
+Path: /api/leaderboard, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/leaderboard ...
+Path: /api/leaderboard, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/leaderboard in 9.6s (2665 modules)
+Path: /api/leaderboard, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+Using existing MongoDB connection
+Connected to database
+Connected to database
+Connected to database
+Path: /dashboard/leaderboard, Session: true, Public: false
+Found entries: [33m3[39m
+Found entries: [33m3[39m
+Using existing MongoDB connection
+Connected to database
+Returning updated entries: [33m3[39m
+ GET /api/leaderboard [32m200[39m in 6028ms
+Found entries: [33m3[39m
+Returning updated entries: [33m3[39m
+ GET /api/leaderboard [32m200[39m in 879ms
+ GET /dashboard/leaderboard [32m200[39m in 476ms
+Found entries: [33m3[39m
+Returning updated entries: [33m3[39m
+ GET /api/leaderboard [32m200[39m in 11385ms
+Returning updated entries: [33m3[39m
+ GET /api/leaderboard [32m200[39m in 11439ms
+Path: /api/leaderboard, Session: true, Public: true
+Using existing MongoDB connection
+Connected to database
+Found entries: [33m3[39m
+Returning updated entries: [33m3[39m
+ GET /api/leaderboard [32m200[39m in 274ms
+Path: /api/leaderboard, Session: true, Public: true
+Using existing MongoDB connection
+Connected to database
+Found entries: [33m3[39m
+Returning updated entries: [33m3[39m
+ GET /api/leaderboard [32m200[39m in 138ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 38ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1410ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 746ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8640[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 146ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8640[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 155ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8640[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 100ms
+ [32m[1m✓[22m[39m Compiled in 753ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 40ms
+Path: /dashboard, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 84ms
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 328ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1092ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 127ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 85ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 89ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 57ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 109ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 129ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 93ms
+ [32m[1m✓[22m[39m Compiled in 987ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 39ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 188ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 143ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 210ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 50ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 78ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 307ms
+ [32m[1m✓[22m[39m Compiled in 814ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 20ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 71ms
+ [32m[1m✓[22m[39m Compiled in 658ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 23ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 414ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 20ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 82ms
+ [32m[1m✓[22m[39m Compiled in 387ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 26ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 113ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 66ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 182ms
+ [32m[1m✓[22m[39m Compiled in 1584ms (2885 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 138ms
+ [32m[1m✓[22m[39m Compiled in 391ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 20ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 94ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 254ms
+ [32m[1m✓[22m[39m Compiled in 1316ms (2871 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 164ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 123ms
+ [32m[1m✓[22m[39m Compiled in 499ms (1253 modules)
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 18ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 84ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 505ms
+ [32m[1m✓[22m[39m Compiled in 2.2s (2885 modules)
+ [32m[1m✓[22m[39m Compiled in 455ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 387ms (1253 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 93ms
+ [32m[1m✓[22m[39m Compiled in 1969ms (2647 modules)
+ [32m[1m✓[22m[39m Compiled in 809ms (2647 modules)
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8646[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 173ms
+ [37m[1m○[22m[39m Compiling /api/profile ...
+ [32m[1m✓[22m[39m Compiled /api/profile in 1599ms (1407 modules)
+ [32m[1m✓[22m[39m Compiled (1409 modules)
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2856ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 3406ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8649[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 271ms
+ GET /dashboard [32m200[39m in 294ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 35ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+Using existing MongoDB connection
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 23ms
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 82ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 71ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 663ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 448ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 597ms
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 2168ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /dashboard/peerpod, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /dashboard/peerpod ...
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 3352ms
+Path: /api/roadmaps/user, Session: true, Public: true
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:4:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@/hooks/useUser[39m'
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { useUser } from '@/hooks/useUser';
+    | ^
+  5 | import Image from "next/image";
+  6 | import { Button } from "@/components/ui/button";
+  7 | import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+
+https://nextjs.org/docs/messages/module-not-found
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Path: /dashboard/peerpod, Session: true, Public: false
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:4:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@/hooks/useUser[39m'
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { useUser } from '@/hooks/useUser';
+    | ^
+  5 | import Image from "next/image";
+  6 | import { Button } from "@/components/ui/button";
+  7 | import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+
+https://nextjs.org/docs/messages/module-not-found
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 45160ms
+ POST /api/roadmaps/update-time [31m500[39m in 31043ms
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 30138ms
+ GET /dashboard/peerpod [31m500[39m in 49409ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 7480ms
+Path: /, Session: true, Public: true
+Path: /dashboard/leaderboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard/peerpod, Session: true, Public: false
+ GET /dashboard/peerpod [31m500[39m in 7128ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:4:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@/hooks/useUser[39m'
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { useUser } from '@/hooks/useUser';
+    | ^
+  5 | import Image from "next/image";
+  6 | import { Button } from "@/components/ui/button";
+  7 | import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+
+https://nextjs.org/docs/messages/module-not-found
+ POST /api/roadmaps/update-time [31m500[39m in 2219ms
+ GET /dashboard/leaderboard [31m500[39m in 2219ms
+ GET /dashboard/peerpod [31m500[39m in 2225ms
+ POST /api/roadmaps/update-time [31m500[39m in 2171ms
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [31m500[39m in 2204ms
+ GET / [31m500[39m in 2256ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [31m500[39m in 22ms
+Path: /, Session: true, Public: true
+ GET / [31m500[39m in 20ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 9ms
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:4:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@/hooks/useUser[39m'
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { useUser } from '@/hooks/useUser';
+    | ^
+  5 | import Image from "next/image";
+  6 | import { Button } from "@/components/ui/button";
+  7 | import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+
+https://nextjs.org/docs/messages/module-not-found
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:4:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@/hooks/useUser[39m'
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { useUser } from '@/hooks/useUser';
+    | ^
+  5 | import Image from "next/image";
+  6 | import { Button } from "@/components/ui/button";
+  7 | import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+
+https://nextjs.org/docs/messages/module-not-found
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:12:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32mreact-intersection-observer[39m'
+  10 | import { Heart, MessageCircle, Send, Trash2, Upload } from "lucide-react";
+  11 | import { toast } from "@/components/ui/use-toast";
+> 12 | import { useInView } from "react-intersection-observer";
+     | ^
+  13 |
+  14 | interface Comment {
+  15 |   _id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:12:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32mreact-intersection-observer[39m'
+  10 | import { Heart, MessageCircle, Send, Trash2, Upload } from "lucide-react";
+  11 | import { toast } from "@/components/ui/use-toast";
+> 12 | import { useInView } from "react-intersection-observer";
+     | ^
+  13 |
+  14 | interface Comment {
+  15 |   _id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:12:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32mreact-intersection-observer[39m'
+  10 | import { Heart, MessageCircle, Send, Trash2, Upload } from "lucide-react";
+  11 | import { toast } from "@/components/ui/use-toast";
+> 12 | import { useInView } from "react-intersection-observer";
+     | ^
+  13 |
+  14 | interface Comment {
+  15 |   _id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+ [31m[1m⨯[22m[39m ./app/dashboard/peerpod/page.tsx:12:1
+[31m[1mModule not found[22m[39m: Can't resolve '[32mreact-intersection-observer[39m'
+  10 | import { Heart, MessageCircle, Send, Trash2, Upload } from "lucide-react";
+  11 | import { toast } from "@/components/ui/use-toast";
+> 12 | import { useInView } from "react-intersection-observer";
+     | ^
+  13 |
+  14 | interface Comment {
+  15 |   _id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+ [32m[1m✓[22m[39m Compiled / in 1365ms (2908 modules)
+Path: /, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 678ms (2907 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / [32m200[39m in 1440ms
+ GET /_next/static/webpack/3a34e3b7490467a7.webpack.hot-update.json [33m404[39m in 1459ms
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 35ms
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 28ms
+ [32m[1m✓[22m[39m Compiled in 769ms (1480 modules)
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 31ms
+ [32m[1m✓[22m[39m Compiled in 492ms (1480 modules)
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 23ms
+ [32m[1m✓[22m[39m Compiled in 449ms (1480 modules)
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 21ms
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 38ms
+Path: /register, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /register ...
+ [32m[1m✓[22m[39m Compiled /register in 1659ms (2897 modules)
+ GET /register [32m200[39m in 1773ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 39ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 56ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/update-time in 460ms (1446 modules)
+ [32m[1m✓[22m[39m Compiled (1451 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 1555ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 105ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1761ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 164ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 3145ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1189ms
+Path: /dashboard/peerpod, Session: true, Public: false
+ [37m[1m○[22m[39m Compiling /dashboard/peerpod ...
+ [32m[1m✓[22m[39m Compiled /dashboard/peerpod in 759ms (1481 modules)
+ GET /dashboard/peerpod [32m200[39m in 994ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Path: /api/peerpod/posts, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/peerpod/posts ...
+ [32m[1m✓[22m[39m Compiled /api/peerpod/posts in 1033ms (2952 modules)
+Using existing MongoDB connection
+Using existing MongoDB connection
+ GET /api/peerpod/posts?page=1&limit=5 [32m200[39m in 1302ms
+ GET /api/peerpod/posts?page=2&limit=5 [32m200[39m in 1299ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/peerpod/posts?page=1&limit=5 [32m200[39m in 114ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Using existing MongoDB connection
+ POST /api/peerpod/posts [32m200[39m in 1953ms
+Path: /api/peerpod/posts/67f1e50a0fd382ab986b331e, Session: true, Public: true
+ [37m[1m○[22m[39m Compiling /api/peerpod/posts/[id] ...
+ [32m[1m✓[22m[39m Compiled /api/peerpod/posts/[id] in 1252ms (2950 modules)
+Error: Route "/api/peerpod/posts/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at id (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\peerpod\posts\[id]\route.ts:99:12)
+   97 | ) {
+   98 |   try {
+>  99 |     const { id } = params;
+      |            ^
+  100 |     const body = await request.json();
+  101 |     
+  102 |     // Connect to MongoDB
+Using existing MongoDB connection
+ PATCH /api/peerpod/posts/67f1e50a0fd382ab986b331e [32m200[39m in 3571ms
+Path: /api/peerpod/posts/67f1e50a0fd382ab986b331e, Session: true, Public: true
+Error: Route "/api/peerpod/posts/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at id (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\peerpod\posts\[id]\route.ts:99:12)
+   97 | ) {
+   98 |   try {
+>  99 |     const { id } = params;
+      |            ^
+  100 |     const body = await request.json();
+  101 |     
+  102 |     // Connect to MongoDB
+Using existing MongoDB connection
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8700[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 122ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8700[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 121ms
+ PATCH /api/peerpod/posts/67f1e50a0fd382ab986b331e [32m200[39m in 1955ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8707[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 68ms
+Path: /, Session: true, Public: true
+ GET / [32m200[39m in 419ms
+Path: /dashboard/peerpod, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+ GET /dashboard/peerpod [32m200[39m in 76ms
+Path: /, Session: true, Public: true
+Using existing MongoDB connection
+ GET / [32m200[39m in 56ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 702ms
+Path: /register, Session: true, Public: false
+ GET /register [32m200[39m in 37ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 52ms
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 39ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 120ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9&date=2025-04-06 [32m200[39m in 85ms
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 572ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 505ms
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1437ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /dashboard/peerpod, Session: true, Public: false
+ GET /dashboard/peerpod [32m200[39m in 32ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Path: /api/peerpod/posts, Session: true, Public: true
+Using existing MongoDB connection
+Found 8 roadmaps for user bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Found progress data for 2 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9 [32m200[39m in 1923ms
+Using existing MongoDB connection
+ GET /api/peerpod/posts?page=2&limit=5 [32m200[39m in 890ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1c40b398a17c1c0878deb'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'bf812cb3-c61a-4a4f-b6d2-a58c16c2b6b9'[39m,
+  __v: [33m0[39m,
+  time: [33m8707[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 336ms
+ GET /api/peerpod/posts?page=1&limit=5 [32m200[39m in 2064ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/peerpod/posts?page=1&limit=5 [32m200[39m in 3464ms
+Path: /dashboard/peerpod, Session: false, Public: false
+Path: /signin, Session: false, Public: true
+Path: /dashboard/peerpod, Session: false, Public: false
+Path: /signin, Session: false, Public: true
+ [37m[1m○[22m[39m Compiling /signin ...
+ [32m[1m✓[22m[39m Compiled /signin in 1568ms (1476 modules)
+ GET /signin [32m200[39m in 1806ms
+ GET /signin?redirectedFrom=%2Fdashboard%2Fpeerpod [32m200[39m in 1567ms
+Path: /signin, Session: false, Public: true
+Path: /dashboard/peerpod, Session: false, Public: false
+ GET /signin?redirectedFrom=%2Fdashboard%2Fpeerpod [32m200[39m in 60ms
+Path: /signin, Session: false, Public: true
+Path: /dashboard/peerpod, Session: false, Public: false
+ GET /signin?redirectedFrom=%2Fdashboard%2Fpeerpod [32m200[39m in 43ms
+Path: /signin, Session: false, Public: true
+ GET /signin?redirectedFrom=%2Fdashboard%2Fpeerpod [32m200[39m in 30ms
+Path: /auth/callback, Session: false, Public: true
+ [37m[1m○[22m[39m Compiling /auth/callback ...
+ [32m[1m✓[22m[39m Compiled /auth/callback in 1727ms (1289 modules)
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token-code-verifier', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+[Error: Route "/auth/callback" used `cookies().get('sb-wqewzenlruhorfotbreb-auth-token-code-verifier.0')`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis]
+Error: Route "/auth/callback" used `cookies().set('sb-wqewzenlruhorfotbreb-auth-token', ...)`. `cookies()` should be awaited before using its value. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at Array.forEach (<anonymous>)
+Auth callback: Code exchanged for session successfully
+ GET /auth/callback?code=4cfaf5df-7206-4706-a1f0-1b1e7b33aa21 [34m307[39m in 2507ms
+ │ [37mPOST https://wqewzenlruhorfotbreb.supabase.co/auth/v1/token?grant_type=pkce 200 in 361ms [33m(cache skip)[37m[39m
+ │ │ [90mCache skipped reason: ([37mrevalidate: 0[90m)[39m
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard [32m200[39m in 390ms
+Path: /signin, Session: true, Public: true
+User is signed in and trying to access login/signin page, redirecting to dashboard
+Path: /dashboard, Session: true, Public: false
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+Path: /api/roadmaps/user, Session: true, Public: true
+Using existing MongoDB connection
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 134ms
+ GET /dashboard [32m200[39m in 152ms
+ GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-06 [32m200[39m in 135ms
+Path: /dashboard, Session: true, Public: false
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 157ms
+ GET /dashboard [32m200[39m in 165ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-06 [32m200[39m in 95ms
+Path: /signin, Session: true, Public: true
+User is signed in and trying to access login/signin page, redirecting to dashboard
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 150ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard, Session: true, Public: false
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 151ms
+Using existing MongoDB connection
+Path: /api/profile, Session: true, Public: true
+ GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-06 [32m200[39m in 148ms
+ GET /dashboard [32m200[39m in 142ms
+Using existing MongoDB connection
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 133ms
+Using existing MongoDB connection
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/roadmaps/update-time?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8&date=2025-04-06 [32m200[39m in 97ms
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 105ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 109ms
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 1671ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /dashboard/peerpod, Session: true, Public: false
+ GET /dashboard/peerpod [32m200[39m in 47ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Path: /api/peerpod/posts, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 1255ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/peerpod/posts?page=2&limit=5 [32m200[39m in 287ms
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 1244ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/peerpod/posts?page=1&limit=5 [32m200[39m in 1779ms
+Path: /api/peerpod/posts, Session: true, Public: true
+Using existing MongoDB connection
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 901ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+ GET /api/peerpod/posts?page=1&limit=5 [32m200[39m in 893ms
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 788ms
+Path: /api/roadmaps/user, Session: true, Public: true
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Path: /api/peerpod/posts/67f1e50a0fd382ab986b331e, Session: true, Public: true
+Error: Route "/api/peerpod/posts/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at id (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\peerpod\posts\[id]\route.ts:99:12)
+   97 | ) {
+   98 |   try {
+>  99 |     const { id } = params;
+      |            ^
+  100 |     const body = await request.json();
+  101 |     
+  102 |     // Connect to MongoDB
+Using existing MongoDB connection
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 1184ms
+ PATCH /api/peerpod/posts/67f1e50a0fd382ab986b331e [32m200[39m in 1225ms
+Path: /api/peerpod/posts/67f1e50a0fd382ab986b331e, Session: true, Public: true
+Error: Route "/api/peerpod/posts/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at id (c:\Users\gaura\Desktop\dyp\DevClash-Ascend\app\api\peerpod\posts\[id]\route.ts:99:12)
+   97 | ) {
+   98 |   try {
+>  99 |     const { id } = params;
+      |            ^
+  100 |     const body = await request.json();
+  101 |     
+  102 |     // Connect to MongoDB
+Using existing MongoDB connection
+ PATCH /api/peerpod/posts/67f1e50a0fd382ab986b331e [32m200[39m in 2523ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m30[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 135ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m30[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 150ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m60[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 670ms
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m60[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 783ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m30[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 183ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m30[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 118ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m31[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 123ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m31[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 96ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m31[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 186ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m31[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 98ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m120[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 106ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m120[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 112ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m31[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 86ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m32[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 90ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m156[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 160ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled in 1648ms (1479 modules)
+Path: /dashboard/peerpod, Session: true, Public: false
+Path: /dashboard, Session: true, Public: false
+Using existing MongoDB connection
+ GET /dashboard [32m200[39m in 101ms
+ GET /dashboard/peerpod [32m200[39m in 93ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m32[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 264ms
+ [32m[1m✓[22m[39m Compiled in 1681ms (1479 modules)
+Path: /dashboard, Session: true, Public: false
+Path: /dashboard/peerpod, Session: true, Public: false
+ GET /dashboard [32m200[39m in 43ms
+ GET /dashboard/peerpod [32m200[39m in 45ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m156[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 123ms
+ [32m[1m✓[22m[39m Compiled in 637ms (1479 modules)
+Path: /dashboard/peerpod, Session: true, Public: false
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard/peerpod [32m200[39m in 44ms
+ GET /dashboard [32m200[39m in 49ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m156[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 80ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+ [32m[1m✓[22m[39m Compiled in 3.6s (2571 modules)
+Using existing MongoDB connection
+Path: /dashboard, Session: true, Public: false
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Path: /dashboard/peerpod, Session: true, Public: false
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m40[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 2908ms
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m156[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 120ms
+ GET /dashboard [32m200[39m in 124ms
+ GET /dashboard/peerpod [32m200[39m in 126ms
+ [32m[1m✓[22m[39m Compiled in 889ms (2571 modules)
+Path: /dashboard/peerpod, Session: true, Public: false
+Path: /dashboard, Session: true, Public: false
+Path: /api/profile, Session: true, Public: true
+ GET /dashboard [32m200[39m in 167ms
+Path: /api/roadmaps/user, Session: true, Public: true
+ GET /dashboard/peerpod [32m200[39m in 182ms
+Path: /dashboard, Session: true, Public: false
+Path: /dashboard/peerpod, Session: true, Public: false
+ [32m[1m✓[22m[39m Compiled /api/roadmaps/user in 356ms (1104 modules)
+ [32m[1m✓[22m[39m Compiled (1106 modules)
+Fetching roadmaps from MongoDB...
+Using existing MongoDB connection
+Connected to MongoDB
+Using existing MongoDB connection
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 1555ms
+ GET /dashboard/peerpod [32m200[39m in 1371ms
+ GET /dashboard [32m200[39m in 1388ms
+Path: /api/profile, Session: true, Public: true
+Using existing MongoDB connection
+ GET /api/profile?userId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [33m404[39m in 117ms
+Found 4 roadmaps for user 9bbd4f04-26f5-4149-99e7-b85d30676bc8
+Found progress data for 0 roadmaps
+ GET /api/roadmaps/user?supabaseUserId=9bbd4f04-26f5-4149-99e7-b85d30676bc8 [32m200[39m in 3886ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m169[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 131ms
+ [32m[1m✓[22m[39m Compiled in 889ms (1480 modules)
+Path: /dashboard/peerpod, Session: true, Public: false
+Path: /dashboard, Session: true, Public: false
+ GET /dashboard/peerpod [32m200[39m in 68ms
+ GET /dashboard [32m200[39m in 70ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m46[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 66ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m169[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 140ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m49[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 96ms
+Path: /api/roadmaps/update-time, Session: true, Public: true
+Using existing MongoDB connection
+✅ Updated time in MongoDB: {
+  _id: new ObjectId([32m'67f1e56c398a17c1c0878dfd'[39m),
+  date: [32m'2025-04-06'[39m,
+  userId: [32m'9bbd4f04-26f5-4149-99e7-b85d30676bc8'[39m,
+  __v: [33m0[39m,
+  time: [33m169[39m
+}
+ POST /api/roadmaps/update-time [32m200[39m in 249ms

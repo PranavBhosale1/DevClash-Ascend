@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { BookOpen, Calendar, ChevronLeft, ChevronRight, Home, LayoutDashboard, LogOut, Menu, Settings, Users, Trophy } from 'lucide-react'
+import { BookOpen, Calendar, ChevronLeft, ChevronRight, Home, LayoutDashboard, LogOut, Menu, Settings, Users, Trophy, MessageSquare } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { useAuth } from "@/contexts/auth-context"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -111,6 +111,11 @@ export default function DashboardLayout({
       title: "Weekly Progress",
       href: "/dashboard/weeklyprogress",
       icon: <Calendar className="h-5 w-5" />,
+    },
+    {
+      title: "Peer Pod",
+      href: "/dashboard/peerpod",
+      icon: <MessageSquare className="h-5 w-5" />,
     },
     {
       title: "Community",
